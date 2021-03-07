@@ -1,0 +1,59 @@
+header img {
+  width: 200px;
+}
+
+header a {
+  padding: 10px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+header .specialof {
+  width: 70px;
+}
+
+header #sale::after {
+  content: 'Sale';
+  position: absolute;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  width: 35px;
+  height: 15px;
+  background-color: #ff3300;
+  top: 3px;
+  left: 505px;
+  border-radius: 10%;
+}
+
+header #hot::after {
+  content: 'Hot';
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 35px;
+  height: 15px;
+  background-color: #ffc400;
+  top: 3px;
+  right: 215px;
+  border-radius: 10%;
+}
+
+header #new::after {
+  content: 'New';
+  position: absolute;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  width: 35px;
+  height: 15px;
+  background-color: #01c070;
+  top: 3px;
+  right: 102px;
+  border-radius: 10%;
+}
+
+header .menuright a {
+  padding: 23px;
+}

@@ -1,0 +1,65 @@
+@import "variables";
+
+header{
+   
+ img{
+     width: 200px;
+ }
+a{
+  padding: 10px;
+  color: black;
+  font-family: $text_font;
+}
+.specialof{
+  width: 70px;
+}
+
+#sale::after{
+  content: 'Sale';
+  position: absolute;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  width: 35px;
+  height: 15px;
+  background-color: rgb(255, 51, 0);
+  top: 3px;
+  left: 505px;
+  border-radius: 10%;
+}
+
+#hot::after{
+  content: 'Hot';
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 35px;
+  height: 15px;
+  background-color: rgb(255, 196, 0);
+  top: 3px;
+  right: 215px;
+  border-radius: 10%;
+}
+
+#new::after{
+  content: 'New';
+  position: absolute;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  width: 35px;
+  height: 15px;
+  background-color: rgb(1, 192, 112);
+  top: 3px;
+  right: 102px;
+  border-radius: 10%;
+}
+
+ .menuright{
+   a{
+     padding: 23px;
+   }
+ }
+    
+}
