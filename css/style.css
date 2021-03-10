@@ -1,3 +1,7 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 header img {
   width: 200px;
 }
@@ -5,7 +9,8 @@ header img {
 header a {
   padding: 10px;
   color: black;
-  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 header .specialof {
@@ -22,8 +27,8 @@ header #sale::after {
   height: 15px;
   background-color: #ff3300;
   top: 3px;
-  left: 505px;
-  border-radius: 10%;
+  left: 480px;
+  border-radius: 12%;
 }
 
 header #hot::after {
@@ -36,8 +41,8 @@ header #hot::after {
   height: 15px;
   background-color: #ffc400;
   top: 3px;
-  right: 215px;
-  border-radius: 10%;
+  right: 236px;
+  border-radius: 12%;
 }
 
 header #new::after {
@@ -50,10 +55,164 @@ header #new::after {
   height: 15px;
   background-color: #01c070;
   top: 3px;
-  right: 102px;
-  border-radius: 10%;
+  right: 137px;
+  border-radius: 12%;
 }
 
 header .menuright a {
   padding: 23px;
+  font-size: 17px;
+}
+
+main .slide, main .carousel-inner {
+  height: 550px;
+  margin-top: 15px;
+}
+
+main .carousel-caption {
+  padding-bottom: 350px;
+}
+
+main .carousel-caption .firstslide h1 {
+  margin-right: 550px;
+}
+
+main .carousel-caption .firstslide p {
+  margin-right: 450px;
+}
+
+main .carousel-caption .thirdslide h5, main .carousel-caption .thirdslide p {
+  margin-right: 380px;
+}
+
+main .NewArrivals {
+  font-weight: bold;
+}
+
+main .NewArrivals h2 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+main .NewArrivals .owl-carousel {
+  margin-top: 30px;
+}
+
+main .NewArrivals .owl-carousel img {
+  height: 380px;
+}
+
+main .NewArrivals .owl-prev {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  margin-left: -40px;
+  display: block !important;
+  border: 0px solid black;
+}
+
+main .NewArrivals .owl-next {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  right: -45px;
+  display: block !important;
+  border: 0px solid black;
+}
+
+main #MostPopular {
+  margin-top: 100px;
+}
+
+main #MostPopular .mainpopular {
+  margin-bottom: 35px;
+}
+
+main #MostPopular .mainpopular h2 {
+  font-weight: 400;
+  text-align: center;
+}
+
+main #MostPopular .mainpopular p {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+  text-align: center;
+  margin-left: 470px;
+}
+
+main #MostPopular .mainpopular a {
+  color: #17a8a3;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 12px;
+  margin-left: 180px;
+}
+
+main #MostPopular .popularimages a {
+  text-decoration: none;
+}
+
+main #MostPopular .popularimages img {
+  width: 418px;
+}
+
+main #MostPopular .popularimages .fade {
+  opacity: 1;
+  transition: opacity .20s ease-in-out;
+  -moz-transition: opacity .20s ease-in-out;
+  -o-transition: opacity .20s ease-in-out;
+  -webkit-transition: opacity .20s ease-in-out;
+}
+
+main #MostPopular .popularimages .fade:hover {
+  opacity: 0.7;
+}
+
+main #MostPopular .teas {
+  margin-top: 40px;
+}
+
+main #MostPopular .teas .btn {
+  width: 200px;
+  height: 45px;
+  border-radius: 0;
+  border-color: #505050;
+  color: black;
+}
+
+main #MostPopular .teas .btn:hover {
+  color: white;
+  border-color: #5bc0de;
+}
+
+main #MostPopular .teas .firstteas {
+  margin-right: 50px;
+}
+
+main #MostPopular .teas .firstteas h3, main #MostPopular .teas .firstteas p, main #MostPopular .teas .firstteas .btn {
+  margin-bottom: 40px;
+}
+
+main #MostPopular .teas .secondteas h3, main #MostPopular .teas .secondteas p, main #MostPopular .teas .secondteas .btn {
+  margin-bottom: 40px;
+}
+
+main #MostPopular .teas .thirdteas {
+  margin-left: 50px;
+}
+
+main #MostPopular .teas .thirdteas h3, main #MostPopular .teas .thirdteas p, main #MostPopular .teas .thirdteas .btn {
+  margin-bottom: 40px;
+}
+
+main #NewProducts h2 {
+  text-align: center;
 }
