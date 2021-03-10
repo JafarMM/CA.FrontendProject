@@ -14,6 +14,7 @@ $(document).ready(function(){
     loop:false,
     margin:10,
     nav:true,
+    startPosition:0,
     responsive:{
         0:{
             items:1

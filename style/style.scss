@@ -11,7 +11,7 @@ header{
  }
 a{
   padding: 10px;
-  color: black;
+  color: rgb(0, 0, 0);
    font-weight: 500;
   font-size:14px;
   
@@ -214,20 +214,27 @@ margin-left: 50px;
 h3,p, .btn{
   margin-bottom: 40px;
  }
-}
-
-}
- }
-#NewProducts{
-  h2{
-    text-align: center;
   }
+  }
+  
+  
 }
 
-  
+    
+  #newprdcs{
+
+     
+    h2{
+      text-align: center;
+       color: red;
+    }
+   
+  }
 
 
-
+  #partvideo{
+    margin-top: 150px;
+  }
 
  
 }
