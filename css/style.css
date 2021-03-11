@@ -161,7 +161,7 @@ main #MostPopular .popularimages a {
 }
 
 main #MostPopular .popularimages img {
-  width: 418px;
+  width: 107.5%;
 }
 
 main #MostPopular .popularimages .fade {
@@ -382,7 +382,8 @@ main #partvideo .btn {
 }
 
 main #partvideo .btn:hover {
-  background-color: #0b8585;
+  color: white;
+  border-color: #5bc0de;
 }
 
 main #partvideo img {
@@ -391,4 +392,32 @@ main #partvideo img {
 
 main #partvideo .leftpart {
   margin-top: 108px;
+}
+
+main #imageGallery {
+  margin-top: 80px;
+}
+
+main #imageGallery h2, main #imageGallery p {
+  text-align: center;
+}
+
+main #imageGallery .images img {
+  width: 111%;
+  height: 100%;
+}
+
+main #imageGallery .btn {
+  width: 200px;
+  height: 45px;
+  border-radius: 0;
+  border-color: #505050;
+  color: black;
+  margin-left: 545px;
+  margin-top: 50px;
+}
+
+main #imageGallery .btn:hover {
+  color: white;
+  border-color: #5bc0de;
 }

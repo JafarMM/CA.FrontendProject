@@ -163,7 +163,7 @@ margin-top: 100px;
     text-decoration: none;
   }
   img{
-    width: 418px;
+    width: 107.5%;
   }
   .fade{
     opacity: 1;
@@ -384,7 +384,8 @@ h3,p, .btn{
       background-color: #17a8a3;
     }
     .btn:hover{
-      background-color: rgb(11, 133, 133);
+      color: white;
+     border-color:#5bc0de;
     }
     img{
       max-width: 100%;
@@ -394,5 +395,30 @@ h3,p, .btn{
     }
   }
 
- 
+  #imageGallery{
+    margin-top: 80px;
+    h2,p{
+      text-align: center;
+    }
+    .images{
+      img{
+        width: 111%;
+        height: 100%;
+      }
+    }
+    .btn{
+      width: 200px;
+      height: 45px;
+      border-radius: 0;
+      border-color: rgb(80, 80, 80);
+       color: black;
+       margin-left: 545px;
+       margin-top: 50px;
+    }
+    .btn:hover{
+      color: white;
+      border-color:#5bc0de;
+    }
+  }
+
 }
