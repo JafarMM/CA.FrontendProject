@@ -105,7 +105,7 @@ main{
    .owl-carousel{
      margin-top: 30px;
      img{
-       height: 380px;
+       max-width: 100%;
      }
       
    }
@@ -223,17 +223,175 @@ h3,p, .btn{
     
   #newprdcs{
 
+    .card{
+      border-style: none;
+    }
+
+    .owl-prev{
+      width: 25px;
+      height: 100px;
+      position: absolute;
+      top: 40%;
+      margin-left: -40px;
+      display: block !important;
+      border:0px solid black;
+    
+    }
+    .owl-next {
+      width: 25px;
+      height: 100px;
+      position: absolute;
+      top: 40%;
+      right: -45px;
+      display: block !important;
+      border:0px solid black;
+    }
+
+
+   
+    .secondcard::after{
+      content: '-71%';
+      position: absolute;
+      font-size: 12px;
+      text-align: center;
+      color: white;
+      width: 40px;
+      height: 18px;
+      background-color: #e95144;
+      top: 14px;
+      right: 162px;
+      border-radius: 0;
+    }
      
+    .secondcard::before{
+      content: 'Bundle';
+      position: absolute;
+      font-size: 13px;
+      text-align: center;
+      color: white;
+      width: 55px;
+      height: 20px;
+      background-color: #0d2d4d;;
+      top: 38px;
+      left: 38px;
+      border-radius: 0;
+    }
+    
+
+    .thirdcard::after{
+      content: '-45%';
+      position: absolute;
+      font-size: 12px;
+      text-align: center;
+      color: white;
+      width: 40px;
+      height: 18px;
+      background-color: #e95144;
+      top: 14px;
+      right: 162px;
+      border-radius: 0;
+    }
+
+
+    .forthcard::after{
+      content: '-45%';
+      position: absolute;
+      font-size: 12px;
+      text-align: center;
+      color: white;
+      width: 40px;
+      height: 18px;
+      background-color: #e95144;
+      top: 14px;
+      right: 162px;
+      border-radius: 0;
+    }
+
+    .fifthcard::after{
+      content: '-47%';
+      position: absolute;
+      font-size: 12px;
+      text-align: center;
+      color: white;
+      width: 40px;
+      height: 18px;
+      background-color: #e95144;
+      top: 10px;
+      right: 162px;
+      border-radius: 0;
+    }
+
+     margin-bottom: 50px;
     h2{
       text-align: center;
-       color: red;
+      margin-bottom: 50px;
+      margin-top: 50px;
+      font-weight: bold;
+      display: inline-block;
+      margin-left: 430px;
     }
-   
+    a{
+      color: #17a8a3;
+      text-decoration: underline;
+      background-color: transparent;
+      transition: all 0.3s ease;
+      box-sizing: border-box;
+      font-size: 12px;
+      margin-left: 345px;
+    }
+    p{
+      font-size:13px;
+      font-weight: 500px;
+    }
+    span{
+      font-size: 15px;
+      font-weight: 150px;
+    }
+     
+    #from{
+      font-size: 12px;
+    }
+    #number20{
+    color:#e95144; ;
+    }
   }
 
 
   #partvideo{
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    h2{
+      font-weight: bold;
+      font-size: 50px;
+      margin-right: 100px;
+      margin-left: 40px;
+      color: #17a8a3;
+    }
+    p{
+      font-weight: 300;
+      font-size: 15px;
+      margin-top: 20px;
+      margin-left: 40px;
+      margin-right: 100px;
+    }
+    .btn{
+      margin-top: 20px;
+      margin-left: 40px;
+      border-radius: 0;
+      width: 195px;
+      height: 45px;
+      color: white;
+      background-color: #17a8a3;
+    }
+    .btn:hover{
+      background-color: rgb(11, 133, 133);
+    }
+    img{
+      max-width: 100%;
+    }
+    .leftpart{
+       margin-top: 108px;
+    }
   }
 
  

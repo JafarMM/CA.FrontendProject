@@ -99,7 +99,7 @@ main .NewArrivals .owl-carousel {
 }
 
 main .NewArrivals .owl-carousel img {
-  height: 380px;
+  max-width: 100%;
 }
 
 main .NewArrivals .owl-prev {
@@ -213,6 +213,182 @@ main #MostPopular .teas .thirdteas h3, main #MostPopular .teas .thirdteas p, mai
   margin-bottom: 40px;
 }
 
-main #NewProducts h2 {
+main #newprdcs {
+  margin-bottom: 50px;
+}
+
+main #newprdcs .card {
+  border-style: none;
+}
+
+main #newprdcs .owl-prev {
+  width: 25px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  margin-left: -40px;
+  display: block !important;
+  border: 0px solid black;
+}
+
+main #newprdcs .owl-next {
+  width: 25px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  right: -45px;
+  display: block !important;
+  border: 0px solid black;
+}
+
+main #newprdcs .secondcard::after {
+  content: '-71%';
+  position: absolute;
+  font-size: 12px;
   text-align: center;
+  color: white;
+  width: 40px;
+  height: 18px;
+  background-color: #e95144;
+  top: 14px;
+  right: 162px;
+  border-radius: 0;
+}
+
+main #newprdcs .secondcard::before {
+  content: 'Bundle';
+  position: absolute;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  width: 55px;
+  height: 20px;
+  background-color: #0d2d4d;
+  top: 38px;
+  left: 38px;
+  border-radius: 0;
+}
+
+main #newprdcs .thirdcard::after {
+  content: '-45%';
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  width: 40px;
+  height: 18px;
+  background-color: #e95144;
+  top: 14px;
+  right: 162px;
+  border-radius: 0;
+}
+
+main #newprdcs .forthcard::after {
+  content: '-45%';
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  width: 40px;
+  height: 18px;
+  background-color: #e95144;
+  top: 14px;
+  right: 162px;
+  border-radius: 0;
+}
+
+main #newprdcs .fifthcard::after {
+  content: '-47%';
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  width: 40px;
+  height: 18px;
+  background-color: #e95144;
+  top: 10px;
+  right: 162px;
+  border-radius: 0;
+}
+
+main #newprdcs h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 430px;
+}
+
+main #newprdcs a {
+  color: #17a8a3;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 12px;
+  margin-left: 345px;
+}
+
+main #newprdcs p {
+  font-size: 13px;
+  font-weight: 500px;
+}
+
+main #newprdcs span {
+  font-size: 15px;
+  font-weight: 150px;
+}
+
+main #newprdcs #from {
+  font-size: 12px;
+}
+
+main #newprdcs #number20 {
+  color: #e95144;
+}
+
+main #partvideo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+main #partvideo h2 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-right: 100px;
+  margin-left: 40px;
+  color: #17a8a3;
+}
+
+main #partvideo p {
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+main #partvideo .btn {
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 0;
+  width: 195px;
+  height: 45px;
+  color: white;
+  background-color: #17a8a3;
+}
+
+main #partvideo .btn:hover {
+  background-color: #0b8585;
+}
+
+main #partvideo img {
+  max-width: 100%;
+}
+
+main #partvideo .leftpart {
+  margin-top: 108px;
 }
