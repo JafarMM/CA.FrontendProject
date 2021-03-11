@@ -1,69 +1,3 @@
-body {
-  font-family: "Poppins", sans-serif;
-}
-
-header img {
-  width: 200px;
-}
-
-header a {
-  padding: 10px;
-  color: black;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-header .specialof {
-  width: 70px;
-}
-
-header #sale::after {
-  content: 'Sale';
-  position: absolute;
-  font-size: 10px;
-  color: white;
-  text-align: center;
-  width: 35px;
-  height: 15px;
-  background-color: #ff3300;
-  top: 3px;
-  left: 480px;
-  border-radius: 12%;
-}
-
-header #hot::after {
-  content: 'Hot';
-  font-size: 10px;
-  text-align: center;
-  color: white;
-  position: absolute;
-  width: 35px;
-  height: 15px;
-  background-color: #ffc400;
-  top: 3px;
-  right: 236px;
-  border-radius: 12%;
-}
-
-header #new::after {
-  content: 'New';
-  position: absolute;
-  font-size: 10px;
-  text-align: center;
-  color: white;
-  width: 35px;
-  height: 15px;
-  background-color: #01c070;
-  top: 3px;
-  right: 137px;
-  border-radius: 12%;
-}
-
-header .menuright a {
-  padding: 23px;
-  font-size: 17px;
-}
-
 main .slide, main .carousel-inner {
   height: 550px;
   margin-top: 15px;
@@ -383,7 +317,8 @@ main #partvideo .btn {
 
 main #partvideo .btn:hover {
   color: white;
-  border-color: #5bc0de;
+  border-color: #0c865e;
+  background-color: #167757e3;
 }
 
 main #partvideo img {
@@ -420,4 +355,214 @@ main #imageGallery .btn {
 main #imageGallery .btn:hover {
   color: white;
   border-color: #5bc0de;
+}
+
+main #RecentPosts {
+  margin-top: 100px;
+}
+
+main #RecentPosts .mainrecent {
+  margin-bottom: 35px;
+}
+
+main #RecentPosts .mainrecent h2 {
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  margin-left: 540px;
+}
+
+main #RecentPosts .mainrecent a {
+  color: #17a8a3;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 12px;
+  margin-left: 250px;
+}
+
+main #RecentPosts .recentimages a {
+  text-decoration: none;
+}
+
+main #RecentPosts .recentimages img {
+  width: 107.5%;
+}
+
+main #RecentPosts .recentimages .fade {
+  opacity: 1;
+  transition: opacity .20s ease-in-out;
+  -moz-transition: opacity .20s ease-in-out;
+  -o-transition: opacity .20s ease-in-out;
+  -webkit-transition: opacity .20s ease-in-out;
+}
+
+main #RecentPosts .recentimages .fade:hover {
+  opacity: 0.7;
+}
+
+main #RecentPosts .recenteas {
+  margin-top: 40px;
+}
+
+main #RecentPosts .recenteas .btn {
+  width: 150px;
+  height: 45px;
+  border-radius: 0;
+  border-color: #505050;
+  color: black;
+}
+
+main #RecentPosts .recenteas .btn:hover {
+  color: white;
+  border-color: #5bc0de;
+}
+
+main #RecentPosts .recenteas .firstrecenteas {
+  margin-right: 50px;
+}
+
+main #RecentPosts .recenteas .firstrecenteas h3, main #RecentPosts .recenteas .firstrecenteas p, main #RecentPosts .recenteas .firstrecenteas .btn {
+  margin-bottom: 40px;
+}
+
+main #RecentPosts .recenteas .secondrecenteas h3, main #RecentPosts .recenteas .secondrecenteas p, main #RecentPosts .recenteas .secondrecenteas .btn {
+  margin-bottom: 40px;
+}
+
+main #RecentPosts .recenteas .thirdrecenteas {
+  margin-left: 50px;
+}
+
+main #RecentPosts .recenteas .thirdrecenteas h3, main #RecentPosts .recenteas .thirdrecenteas p, main #RecentPosts .recenteas .thirdrecenteas .btn {
+  margin-bottom: 40px;
+}
+
+main #imgsection {
+  margin-bottom: 250px;
+}
+
+main #imgsection .imgmain {
+  height: 700px;
+  max-width: 100%;
+  background-image: url("../images/igor-miske-CwVE4xCAA8Y-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main #imgsection .imgmain .texts {
+  padding-top: 130px;
+  padding-left: 600px;
+}
+
+main #imgsection .imgmain .texts h1 {
+  color: white;
+  font-weight: 610;
+  font-size: 45px;
+  padding-bottom: 36px;
+}
+
+main #imgsection .imgmain .texts p {
+  color: white;
+  font-size: 13px;
+}
+
+main #imgsection .imgmain .emailinput {
+  padding-top: 36px;
+}
+
+main #imgsection .imgmain .emailinput .form-control {
+  width: 480px;
+  background: transparent;
+  fill: none;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0;
+  border-bottom: 2px solid white;
+}
+
+main #imgsection .imgmain .emailbutton {
+  margin-top: 23px;
+  margin-left: 20px;
+  height: 50px;
+  border-radius: 0;
+  background-color: #17a8a3;
+  color: white;
+  width: 140px;
+}
+
+main #imgsection .imgmain .emailbutton:hover {
+  color: white;
+  border-color: #0c865e;
+  background-color: #167757e3;
+}
+
+header img {
+  width: 200px;
+}
+
+header a {
+  padding: 10px;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+header .specialof {
+  width: 70px;
+}
+
+header #sale::after {
+  content: 'Sale';
+  position: absolute;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  width: 35px;
+  height: 15px;
+  background-color: #ff3300;
+  top: 3px;
+  left: 480px;
+  border-radius: 12%;
+}
+
+header #hot::after {
+  content: 'Hot';
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 35px;
+  height: 15px;
+  background-color: #ffc400;
+  top: 3px;
+  right: 236px;
+  border-radius: 12%;
+}
+
+header #new::after {
+  content: 'New';
+  position: absolute;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  width: 35px;
+  height: 15px;
+  background-color: #01c070;
+  top: 3px;
+  right: 137px;
+  border-radius: 12%;
+}
+
+header .menuright a {
+  padding: 23px;
+  font-size: 17px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }

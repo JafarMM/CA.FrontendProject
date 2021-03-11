@@ -1,0 +1,66 @@
+header{
+   
+    img{
+        width: 200px;
+    }
+   a{
+     padding: 10px;
+     color: rgb(0, 0, 0);
+      font-weight: 500;
+     font-size:14px;
+     
+   }
+   .specialof{
+     width: 70px;
+   }
+   
+   #sale::after{
+     content: 'Sale';
+     position: absolute;
+     font-size: 10px;
+     color: white;
+     text-align: center;
+     width: 35px;
+     height: 15px;
+     background-color: rgb(255, 51, 0);
+     top: 3px;
+     left: 480px;
+     border-radius: 12%;
+   }
+   
+   #hot::after{
+     content: 'Hot';
+     font-size: 10px;
+     text-align: center;
+     color: white;
+     position: absolute;
+     width: 35px;
+     height: 15px;
+     background-color: rgb(255, 196, 0);
+     top: 3px;
+     right: 236px;
+     border-radius: 12%;
+   }
+   
+   #new::after{
+     content: 'New';
+     position: absolute;
+     font-size: 10px;
+     text-align: center;
+     color: white;
+     width: 35px;
+     height: 15px;
+     background-color: rgb(1, 192, 112);
+     top: 3px;
+     right: 137px;
+     border-radius: 12%;
+   }
+   
+    .menuright{
+      a{
+        padding: 23px;
+        font-size: 17px;
+      }
+    }
+       
+   } 
