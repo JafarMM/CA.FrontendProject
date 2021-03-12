@@ -507,5 +507,146 @@ main{
             }
         }
        
+        // productdetailsstylestart
+
+        .pageshortcut{
+            margin-left: 12px;
+            margin-top: 80px;
+            font-size: $little_font;
+            p{
+                display: inline-block;
+                color: gray;
+                margin-left: 5px;
+            }
+            a{
+                text-decoration: none;
+                color: gray;
+                margin-left: 8px;
+            }
+        }
+
+/* styles unrelated to zoom */
+
+#productpage{
+    margin-top: 100px;
+    .zoompicture{
+        * { border:0; margin:0; padding:0; }
+        p { position:absolute; top:3px; right:28px; color:#555; font:bold 13px/1 sans-serif;}
+    
+        /* these styles are for the demo, but are not required for the plugin */
+        .zoom {
+            display:inline-block;
+            position: relative;
+        }
+    
+        /* magnifying glass icon */
+        .zoom:after {
+            content:'';
+            display:block; 
+            width:33px; 
+            height:33px; 
+            position:absolute; 
+            top:0;
+            right:0;
+            background:url(icon.png);
+        }
+    
+        .zoom {
+            img {
+                display: block;
+                height: 540px;
+            }
+        }
+     
+    
+        .zoom img::selection { background-color: transparent; }
+    
+        #ex2 img:hover { cursor: url(grab.cur), default; }
+        #ex2 img:active { cursor: url(grabbed.cur), default; }
+    
+       
+        }
     }
+    
+     .productright{
+         h4{
+             font-weight: 550;
+         }
+         margin-left: 80px;
+         img{
+             height: 14px;
+         }
+         .startext{
+             
+                display: inline-block;
+                margin-left: 8px;
+                font-size: $little_font;
+                color: gray;
+             
+         }
+          
+         .fire{
+             margin-left: 12px;
+             height: 30px;
+         }
+         .firetext{
+            display: inline-block;
+             color: red;
+             font-size: $little_font;
+         }
+          .lefttext{
+              margin-top: 20px;
+            display: inline-block;
+            font-size: $little_font;
+            font-weight: 500;
+            margin-bottom: 10px;
+          }
+          .righttext{
+              margin-left: 35px;
+              font-size: $little_font;
+              font-weight: 350;
+              color: gray;
+             display: inline-block;
+          }
+          .text{
+            
+            font-size: 13px;
+            font-weight: 350;
+            color: gray; 
+          }
+                
+          #size{
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 500;
+          }
+          #small{
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 350;
+            color: gray;
+          }
+          .buttons{
+             
+            .btn{
+                height: 33px;
+                width: 65px;
+                font-size: 13px;
+                color: black;
+            }
+            .btn:hover{
+                background-color: white;
+                color: black;
+            }
+        } 
+        #quanity{
+            margin-top: 30px;
+            font-size: 13px;
+        }
+    }
+         
+}
+ 
+
+
     
