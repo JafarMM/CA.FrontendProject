@@ -86,27 +86,30 @@ main{
     
     }
     
-    .popularimages{
-      a{
-        text-decoration: none;
-      }
-      img{
-        width: 107.5%;
-      }
-      .fade{
-        opacity: 1;
-        transition: opacity .20s ease-in-out;
-        -moz-transition: opacity .20s ease-in-out;
-        -o-transition: opacity .20s ease-in-out;
-        -webkit-transition: opacity .20s ease-in-out;
-         
-      }
-      .fade:hover{
-        opacity: 0.7;
-         
-          
-      }
+    .popularimages {
+         display: flex;
+       
+        .popular1{
+             
+             img{
+                 max-width: 100%;
+             }
+        }
+        .popular2{
+             
+            img{
+                max-width: 100%;
+            }
+        }
+        .popular3{
+            
+            img{
+                max-width: 100%;
+            }
+        }
+
     }
+    
     
     .teas{
     
@@ -330,10 +333,12 @@ main{
           text-align: center;
         }
         .images{
-          img{
-            width: 111%;
-            height: 100%;
-          }
+         .firstrow, .secondrow{
+            display: flex;
+         }
+         img{
+             max-width: 100%;
+         }
         }
         .btn{
           width: 200px;
@@ -373,27 +378,29 @@ main{
         
         }
         
-        .recentimages{
-          a{
-            text-decoration: none;
-          }
-          img{
-            width: 107.5%;
-          }
-          .fade{
-            opacity: 1;
-            transition: opacity .20s ease-in-out;
-            -moz-transition: opacity .20s ease-in-out;
-            -o-transition: opacity .20s ease-in-out;
-            -webkit-transition: opacity .20s ease-in-out;
-             
-          }
-          .fade:hover{
-            opacity: 0.7;
-             
-              
-          }
-        }
+        .recentimages {
+            display: flex;
+          
+           .recent1{
+                
+                img{
+                    max-width: 100%;
+                }
+           }
+           .recent2{
+                
+               img{
+                   max-width: 100%;
+               }
+           }
+           .recent3{
+               
+               img{
+                   max-width: 100%;
+               }
+           }
+   
+       }
         
         .recenteas{
         
@@ -436,7 +443,7 @@ main{
         }
         
         #imgsection{
-            margin-bottom: 250px;
+            margin-bottom: 50px;
             .imgmain{
                  height: 700px;
                  max-width: 100%;
@@ -488,7 +495,6 @@ main{
 
             }
         }
-
-    
-        
+       
     }
+    

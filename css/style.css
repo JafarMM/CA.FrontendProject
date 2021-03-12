@@ -90,24 +90,22 @@ main #MostPopular .mainpopular a {
   margin-left: 180px;
 }
 
-main #MostPopular .popularimages a {
-  text-decoration: none;
+main #MostPopular .popularimages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-main #MostPopular .popularimages img {
-  width: 107.5%;
+main #MostPopular .popularimages .popular1 img {
+  max-width: 100%;
 }
 
-main #MostPopular .popularimages .fade {
-  opacity: 1;
-  transition: opacity .20s ease-in-out;
-  -moz-transition: opacity .20s ease-in-out;
-  -o-transition: opacity .20s ease-in-out;
-  -webkit-transition: opacity .20s ease-in-out;
+main #MostPopular .popularimages .popular2 img {
+  max-width: 100%;
 }
 
-main #MostPopular .popularimages .fade:hover {
-  opacity: 0.7;
+main #MostPopular .popularimages .popular3 img {
+  max-width: 100%;
 }
 
 main #MostPopular .teas {
@@ -337,9 +335,14 @@ main #imageGallery h2, main #imageGallery p {
   text-align: center;
 }
 
+main #imageGallery .images .firstrow, main #imageGallery .images .secondrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 main #imageGallery .images img {
-  width: 111%;
-  height: 100%;
+  max-width: 100%;
 }
 
 main #imageGallery .btn {
@@ -384,24 +387,22 @@ main #RecentPosts .mainrecent a {
   margin-left: 250px;
 }
 
-main #RecentPosts .recentimages a {
-  text-decoration: none;
+main #RecentPosts .recentimages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-main #RecentPosts .recentimages img {
-  width: 107.5%;
+main #RecentPosts .recentimages .recent1 img {
+  max-width: 100%;
 }
 
-main #RecentPosts .recentimages .fade {
-  opacity: 1;
-  transition: opacity .20s ease-in-out;
-  -moz-transition: opacity .20s ease-in-out;
-  -o-transition: opacity .20s ease-in-out;
-  -webkit-transition: opacity .20s ease-in-out;
+main #RecentPosts .recentimages .recent2 img {
+  max-width: 100%;
 }
 
-main #RecentPosts .recentimages .fade:hover {
-  opacity: 0.7;
+main #RecentPosts .recentimages .recent3 img {
+  max-width: 100%;
 }
 
 main #RecentPosts .recenteas {
@@ -442,7 +443,7 @@ main #RecentPosts .recenteas .thirdrecenteas h3, main #RecentPosts .recenteas .t
 }
 
 main #imgsection {
-  margin-bottom: 250px;
+  margin-bottom: 50px;
 }
 
 main #imgsection .imgmain {
@@ -561,6 +562,29 @@ header #new::after {
 header .menuright a {
   padding: 23px;
   font-size: 17px;
+}
+
+#iconsfooter .iconbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#iconsfooter .iconbox i {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+#iconsfooter .iconbox .icontext h6 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#iconsfooter .iconbox .icontext p {
+  font-size: 12px;
+  font-weight: 300;
+  color: grey;
+  text-decoration: underline;
 }
 
 body {

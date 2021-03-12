@@ -1,0 +1,23 @@
+#iconsfooter{
+    .iconbox{
+        display: flex; 
+         
+         i{
+             font-size: 50px;
+             margin-right: 20px;
+         }
+         .icontext{
+             h6{
+                 font-size: 14px;
+                 margin-bottom: 10px;
+             }
+             p{
+                 font-size: 12px;
+                 font-weight: 300;
+                 color: grey;
+                 text-decoration: underline;
+             }
+         }
+    }
+     
+}   
