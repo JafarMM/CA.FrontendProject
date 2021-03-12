@@ -1,4 +1,5 @@
 #iconsfooter{
+    margin-left: 45px;
     .iconbox{
         display: flex; 
          
@@ -21,3 +22,64 @@
     }
      
 }   
+
+#endoffooter{
+    .contact{
+        margin-top: 30px;
+    }
+        .boximg{
+            img{
+                width: 45%;
+                margin-top: 30px;
+                margin-bottom: 25px;
+                margin-left: 50px;
+            }
+        }
+        p{
+            font-size: 11px;
+            font-weight: 400;
+            color: grey;
+            margin-left: 50px;
+            
+            a{
+                color: black;
+                text-decoration: underline;
+            }
+        }
+     
+        ul{
+            margin-top: 55px;
+            list-style-type: none;
+            li{
+                font-size: $little_font;
+                margin-top: 15px;
+                color: grey;
+            }
+            .headli{
+                font-size: 17px;
+                font-weight: 500;
+                color: #000;
+            }
+        }
+     
+      
+      
+}
+
+#lastpart{
+    margin-bottom: 40px;
+    p{
+        font-size: $little_font;
+        color: grey;
+        margin-left: 50px;
+         
+    }
+    margin-top: 50px;
+    .bankcards{
+        margin-left: 250px;
+        img{
+            width: 40px;
+            margin-left: 10px;
+        }
+    }
+}

@@ -67,8 +67,9 @@ main{
         text-align: center;
       }
       p{
-        font-size: 12px;
+        font-size: $little_font;
         font-weight: 400;
+        color: grey;
         font-style: normal;
         display: inline-block;
         text-align: center;
@@ -80,7 +81,7 @@ main{
          background-color: transparent;
          transition: all 0.3s ease;
          box-sizing: border-box;
-         font-size: 12px;
+         font-size: $little_font;
          margin-left: 180px;
       }
     
@@ -130,14 +131,20 @@ main{
      h3,p, .btn{
       margin-bottom: 40px;
      }
-      
+      p{
+          font-size: $little_font;
+          color: grey;
+      }
     }
      
     .secondteas{
       h3,p, .btn{
         margin-bottom: 40px;
        }
-     
+       p{
+        font-size: $little_font;
+        color: grey;
+    }
     }
     
     .thirdteas{
@@ -145,6 +152,10 @@ main{
     h3,p, .btn{
       margin-bottom: 40px;
      }
+     p{
+        font-size: $little_font;
+        color: grey;
+    }
       }
       }
       
@@ -183,7 +194,7 @@ main{
         .secondcard::after{
           content: '-71%';
           position: absolute;
-          font-size: 12px;
+          font-size: $little_font;
           text-align: center;
           color: white;
           width: 40px;
@@ -197,7 +208,7 @@ main{
         .secondcard::before{
           content: 'Bundle';
           position: absolute;
-          font-size: 13px;
+          font-size: $little_font;
           text-align: center;
           color: white;
           width: 55px;
@@ -212,7 +223,7 @@ main{
         .thirdcard::after{
           content: '-45%';
           position: absolute;
-          font-size: 12px;
+          font-size: $little_font;
           text-align: center;
           color: white;
           width: 40px;
@@ -227,7 +238,7 @@ main{
         .forthcard::after{
           content: '-45%';
           position: absolute;
-          font-size: 12px;
+          font-size: $little_font;
           text-align: center;
           color: white;
           width: 40px;
@@ -241,7 +252,7 @@ main{
         .fifthcard::after{
           content: '-47%';
           position: absolute;
-          font-size: 12px;
+          font-size: $little_font;
           text-align: center;
           color: white;
           width: 40px;
@@ -267,11 +278,11 @@ main{
           background-color: transparent;
           transition: all 0.3s ease;
           box-sizing: border-box;
-          font-size: 12px;
+          font-size: $little_font;
           margin-left: 345px;
         }
         p{
-          font-size:13px;
+          font-size:$little_font;
           font-weight: 500px;
         }
         span{
@@ -280,7 +291,7 @@ main{
         }
          
         #from{
-          font-size: 12px;
+          font-size: $little_font;
         }
         #number20{
         color:#e95144; ;
@@ -372,7 +383,7 @@ main{
              background-color: transparent;
              transition: all 0.3s ease;
              box-sizing: border-box;
-             font-size: 12px;
+             font-size: $little_font;
              margin-left: 250px;   
           }
         
@@ -462,7 +473,7 @@ main{
                     }
                     p{
                         color: white;
-                        font-size: 13px;
+                        font-size: $little_font;
                     }
                  }
                .emailinput{

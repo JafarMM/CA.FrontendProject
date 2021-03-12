@@ -72,6 +72,7 @@ main #MostPopular .mainpopular h2 {
 main #MostPopular .mainpopular p {
   font-size: 12px;
   font-weight: 400;
+  color: grey;
   font-style: normal;
   display: inline-block;
   text-align: center;
@@ -133,8 +134,18 @@ main #MostPopular .teas .firstteas h3, main #MostPopular .teas .firstteas p, mai
   margin-bottom: 40px;
 }
 
+main #MostPopular .teas .firstteas p {
+  font-size: 12px;
+  color: grey;
+}
+
 main #MostPopular .teas .secondteas h3, main #MostPopular .teas .secondteas p, main #MostPopular .teas .secondteas .btn {
   margin-bottom: 40px;
+}
+
+main #MostPopular .teas .secondteas p {
+  font-size: 12px;
+  color: grey;
 }
 
 main #MostPopular .teas .thirdteas {
@@ -143,6 +154,11 @@ main #MostPopular .teas .thirdteas {
 
 main #MostPopular .teas .thirdteas h3, main #MostPopular .teas .thirdteas p, main #MostPopular .teas .thirdteas .btn {
   margin-bottom: 40px;
+}
+
+main #MostPopular .teas .thirdteas p {
+  font-size: 12px;
+  color: grey;
 }
 
 main #newprdcs {
@@ -190,7 +206,7 @@ main #newprdcs .secondcard::after {
 main #newprdcs .secondcard::before {
   content: 'Bundle';
   position: absolute;
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
   color: white;
   width: 55px;
@@ -265,7 +281,7 @@ main #newprdcs a {
 }
 
 main #newprdcs p {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500px;
 }
 
@@ -468,7 +484,7 @@ main #imgsection .imgmain .texts h1 {
 
 main #imgsection .imgmain .texts p {
   color: white;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 main #imgsection .imgmain .emailinput {
@@ -564,6 +580,10 @@ header .menuright a {
   font-size: 17px;
 }
 
+#iconsfooter {
+  margin-left: 45px;
+}
+
 #iconsfooter .iconbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -585,6 +605,66 @@ header .menuright a {
   font-weight: 300;
   color: grey;
   text-decoration: underline;
+}
+
+#endoffooter .contact {
+  margin-top: 30px;
+}
+
+#endoffooter .boximg img {
+  width: 45%;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+}
+
+#endoffooter p {
+  font-size: 11px;
+  font-weight: 400;
+  color: grey;
+  margin-left: 50px;
+}
+
+#endoffooter p a {
+  color: black;
+  text-decoration: underline;
+}
+
+#endoffooter ul {
+  margin-top: 55px;
+  list-style-type: none;
+}
+
+#endoffooter ul li {
+  font-size: 12px;
+  margin-top: 15px;
+  color: grey;
+}
+
+#endoffooter ul .headli {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+}
+
+#lastpart {
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+#lastpart p {
+  font-size: 12px;
+  color: grey;
+  margin-left: 50px;
+}
+
+#lastpart .bankcards {
+  margin-left: 250px;
+}
+
+#lastpart .bankcards img {
+  width: 40px;
+  margin-left: 10px;
 }
 
 body {
