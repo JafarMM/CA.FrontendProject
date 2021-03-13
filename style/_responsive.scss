@@ -1,0 +1,31 @@
+@media  screen and (max-width: 1024px) {
+    .menuright{
+        display: none;
+    }
+      .logoandtext{
+          a{display: none;}
+             
+      }
+       #MostPopular{
+           .mainpopular{
+               h2{
+                   text-align: center;
+               }
+               p,a{
+                   text-align: center;
+                   display: block;
+               }
+           }
+       }
+       #newprdcs{
+           h2,a{
+               display: block;
+               text-align: center;
+           }
+           .owl-theme{
+               a{
+                   display: block;
+               }
+           }
+       }
+  }

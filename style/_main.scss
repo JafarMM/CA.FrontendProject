@@ -531,7 +531,7 @@ main{
 .shortcuttext{
   width: 1263px;
   height: 22px;
-   padding-left: 33px;
+   padding-left: 15px;
    padding-top: 13px;
    a{
      text-decoration: none;
@@ -985,6 +985,29 @@ main{
           }
           
         }
+        .blogtexts{
+          p{
+            width: 903px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: $little_font;
+            color: $little_color;
+            a{
+              text-decoration: underline;
+              color: #17A8A3;
+            }
+          }
+           
+          h4{
+            a{
+              font-size: 24px;
+              color: black;
+              font-weight: 600;
+              
+            }
+             
+          }
+        }
         .bannerimg2{
           img{
             margin-top: 20px;
@@ -1005,7 +1028,10 @@ main{
 
         .blogcategories{
           h5{
-
+            font-size: 20px;
+            margin-bottom: 20px;
+            margin-top: 30px;
+            font-weight: 600;
           }
           p{
             font-size: $little_font;
@@ -1016,6 +1042,8 @@ main{
         .blogrecentpost{
           h5{
             padding-bottom: 10px;
+            font-size: 20px;
+            font-weight: 600;
           }
           padding-top: 10px;
           padding-bottom: 30px;
@@ -1098,6 +1126,210 @@ main{
           }
 
         }
+        .bestsellers{
+          h5{
+            display: inline-block;
+            padding-bottom: 10px;
+            font-size: 20px;
+            font-weight: 600;
+          }
+          .view{
+            font-size: $little_font;
+            color: #17A8A3;
+            margin-left: 100px;
+            text-decoration: underline;
+            display: inline-block;
+          }
+          a{
+            font-size: $little_font;
+            color: #17A8A3;
+            margin-left: 20px;
+          }
+          .seller1{
+            display: flex;
+            .sellerimg1{
+              width: 85px;
+              height: 154px;
+              img{
+                width: 85px;
+                height: 85px;
+              }
+            }
+            .sellertext1{
+              
+              width: 185px;
+              height: 154px;
+              p,del,span{
+                font-size: $little_font;
+              }
+               
+              .colors{
+                .color1{
+                  display: inline-block;
+                  border: solid 1px rgb(66, 66, 66);
+                  border-radius: 50%;
+                  height: 19px;
+                  width: 19px;
+                  .inlinecolor1{
+                    border: solid 1px rgb(66, 66, 66);
+                    border-radius: 50%;
+                    height: 15px;
+                    border-color: white;
+                    width: 15px;
+                    background-color: gray;
+                    margin-top: 1px;
+                    margin-left: 1px;
+                  }
+                }
+                .color2{
+                  display: inline-block;
+                  border: solid 1px rgb(197, 197, 197);
+                  border-radius: 50%;
+                  height: 19px;
+                  background-color: whitesmoke;
+                  width: 19px;
+                  .inlinecolor2{
+                    border: solid 1px rgb(66, 66, 66);
+                    border-radius: 50%;
+                    height: 15px;
+                    width: 15px;
+                    border-color: white;
+                    background-color: #F5F5DC;
+                    margin-top: 1px;
+                    margin-left: 1px;
+                  }
+                }
+              }
+                
+            }
+             
+          }
+
+          .seller2{
+            display: flex;
+            .sellerimg2{
+              width: 85px;
+              height: 154px;
+              img{
+                width: 85px;
+                height: 85px;
+              }
+            }
+            .sellertext2{
+              width: 185px;
+              height: 154px;
+              p,del,span{
+                font-size: $little_font;
+              }
+              .colors{
+                .color1{
+                  display: inline-block;
+                  border: solid 1px rgb(66, 66, 66);
+                  border-radius: 50%;
+                  height: 19px;
+                  width: 19px;
+                  .inlinecolor1{
+                    border: solid 1px rgb(66, 66, 66);
+                    border-radius: 50%;
+                    height: 15px;
+                    width: 15px;
+                    border-color: white;
+                    background-color: #F08080;
+                    margin-top: 1px;
+                    margin-left: 1px;
+                  }
+                }
+                .color2{
+                  display: inline-block;
+                  border: solid 1px rgb(197, 197, 197);
+                  border-radius: 50%;
+                  height: 19px;
+                  background-color: whitesmoke;
+                  width: 19px;
+                  .inlinecolor2{
+                    border: solid 1px rgb(66, 66, 66);
+                    border-radius: 50%;
+                    height: 15px;
+                    width: 15px;
+                    border-color: white;
+                    background-color: #F5F5DC;
+                    margin-top: 1px;
+                    margin-left: 1px;
+                  }
+                }
+                .color3{
+                  display: inline-block;
+                  border: solid 1px rgb(197, 197, 197);
+                  border-radius: 50%;
+                  height: 19px;
+                  background-color: whitesmoke;
+                  width: 19px;
+                  .inlinecolor3{
+                    border: solid 1px rgb(66, 66, 66);
+                    border-radius: 50%;
+                    height: 15px;
+                    width: 15px;
+                    border-color: white;
+                    background-color: #FFFFFF;
+                    margin-top: 1px;
+                    margin-left: 1px;
+                  }
+                }
+              }
+            }
+          }
+
+          .seller3{
+            display: flex;
+            .sellerimg3{
+              width: 85px;
+              height: 154px;
+              img{
+                width: 85px;
+                height: 85px;
+              }
+            }
+            .sellertext3{
+              width: 185px;
+              height: 154px;
+              p,del,span{
+                font-size: $little_font;
+              }
+               
+            }
+          }
+           
+        }
+        .herbaltea{
+          img{
+            width: 270px;
+            height: 390px;
+          }
+        }
+
+        .customsms{
+          h4{
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 23px;
+            margin-bottom: 23px;
+          }
+          #custom1{
+             width: 270px;
+             height: 96px;
+              font-size: $little_font;
+              color: $little_color;
+              margin-top: 15px;
+             
+          }
+          #custom2{
+             width: 270px;
+             height: 72px;
+              font-size: $little_font;
+              color: $little_color;
+             
+          }
+        }  
 } 
  
 

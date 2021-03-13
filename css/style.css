@@ -543,7 +543,7 @@ main .pageshortcut a {
 main .shortcuttext {
   width: 1263px;
   height: 22px;
-  padding-left: 33px;
+  padding-left: 15px;
   padding-top: 13px;
 }
 
@@ -1027,6 +1027,25 @@ main .bannerimg img {
   height: 663px;
 }
 
+main .blogtexts p {
+  width: 903px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 12px;
+  color: #787878;
+}
+
+main .blogtexts p a {
+  text-decoration: underline;
+  color: #17A8A3;
+}
+
+main .blogtexts h4 a {
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+}
+
 main .bannerimg2 img {
   margin-top: 20px;
   width: 903px;
@@ -1044,6 +1063,13 @@ main hr {
   border: 1px solid #787878;
 }
 
+main .blogcategories h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
 main .blogcategories p {
   font-size: 12px;
   color: #787878;
@@ -1056,6 +1082,8 @@ main .blogrecentpost {
 
 main .blogrecentpost h5 {
   padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 main .blogrecentpost .recentpart1 {
@@ -1153,6 +1181,227 @@ main .blogrecentpost .recentpart3 .recentpart3texts #date {
   color: #787878;
 }
 
+main .bestsellers h5 {
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+main .bestsellers .view {
+  font-size: 12px;
+  color: #17A8A3;
+  margin-left: 100px;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+main .bestsellers a {
+  font-size: 12px;
+  color: #17A8A3;
+  margin-left: 20px;
+}
+
+main .bestsellers .seller1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .bestsellers .seller1 .sellerimg1 {
+  width: 85px;
+  height: 154px;
+}
+
+main .bestsellers .seller1 .sellerimg1 img {
+  width: 85px;
+  height: 85px;
+}
+
+main .bestsellers .seller1 .sellertext1 {
+  width: 185px;
+  height: 154px;
+}
+
+main .bestsellers .seller1 .sellertext1 p, main .bestsellers .seller1 .sellertext1 del, main .bestsellers .seller1 .sellertext1 span {
+  font-size: 12px;
+}
+
+main .bestsellers .seller1 .sellertext1 .colors .color1 {
+  display: inline-block;
+  border: solid 1px #424242;
+  border-radius: 50%;
+  height: 19px;
+  width: 19px;
+}
+
+main .bestsellers .seller1 .sellertext1 .colors .color1 .inlinecolor1 {
+  border: solid 1px #424242;
+  border-radius: 50%;
+  height: 15px;
+  border-color: white;
+  width: 15px;
+  background-color: gray;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+main .bestsellers .seller1 .sellertext1 .colors .color2 {
+  display: inline-block;
+  border: solid 1px #c5c5c5;
+  border-radius: 50%;
+  height: 19px;
+  background-color: whitesmoke;
+  width: 19px;
+}
+
+main .bestsellers .seller1 .sellertext1 .colors .color2 .inlinecolor2 {
+  border: solid 1px #424242;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  border-color: white;
+  background-color: #F5F5DC;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+main .bestsellers .seller2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .bestsellers .seller2 .sellerimg2 {
+  width: 85px;
+  height: 154px;
+}
+
+main .bestsellers .seller2 .sellerimg2 img {
+  width: 85px;
+  height: 85px;
+}
+
+main .bestsellers .seller2 .sellertext2 {
+  width: 185px;
+  height: 154px;
+}
+
+main .bestsellers .seller2 .sellertext2 p, main .bestsellers .seller2 .sellertext2 del, main .bestsellers .seller2 .sellertext2 span {
+  font-size: 12px;
+}
+
+main .bestsellers .seller2 .sellertext2 .colors .color1 {
+  display: inline-block;
+  border: solid 1px #424242;
+  border-radius: 50%;
+  height: 19px;
+  width: 19px;
+}
+
+main .bestsellers .seller2 .sellertext2 .colors .color1 .inlinecolor1 {
+  border: solid 1px #424242;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  border-color: white;
+  background-color: #F08080;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+main .bestsellers .seller2 .sellertext2 .colors .color2 {
+  display: inline-block;
+  border: solid 1px #c5c5c5;
+  border-radius: 50%;
+  height: 19px;
+  background-color: whitesmoke;
+  width: 19px;
+}
+
+main .bestsellers .seller2 .sellertext2 .colors .color2 .inlinecolor2 {
+  border: solid 1px #424242;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  border-color: white;
+  background-color: #F5F5DC;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+main .bestsellers .seller2 .sellertext2 .colors .color3 {
+  display: inline-block;
+  border: solid 1px #c5c5c5;
+  border-radius: 50%;
+  height: 19px;
+  background-color: whitesmoke;
+  width: 19px;
+}
+
+main .bestsellers .seller2 .sellertext2 .colors .color3 .inlinecolor3 {
+  border: solid 1px #424242;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  border-color: white;
+  background-color: #FFFFFF;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+main .bestsellers .seller3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .bestsellers .seller3 .sellerimg3 {
+  width: 85px;
+  height: 154px;
+}
+
+main .bestsellers .seller3 .sellerimg3 img {
+  width: 85px;
+  height: 85px;
+}
+
+main .bestsellers .seller3 .sellertext3 {
+  width: 185px;
+  height: 154px;
+}
+
+main .bestsellers .seller3 .sellertext3 p, main .bestsellers .seller3 .sellertext3 del, main .bestsellers .seller3 .sellertext3 span {
+  font-size: 12px;
+}
+
+main .herbaltea img {
+  width: 270px;
+  height: 390px;
+}
+
+main .customsms h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+main .customsms #custom1 {
+  width: 270px;
+  height: 96px;
+  font-size: 12px;
+  color: #787878;
+  margin-top: 15px;
+}
+
+main .customsms #custom2 {
+  width: 270px;
+  height: 72px;
+  font-size: 12px;
+  color: #787878;
+}
+
 header img {
   width: 200px;
 }
@@ -1226,6 +1475,29 @@ header .menuright a .fa-shopping-cart::after {
   top: 8px;
   right: 32px;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .menuright {
+    display: none;
+  }
+  .logoandtext a {
+    display: none;
+  }
+  #MostPopular .mainpopular h2 {
+    text-align: center;
+  }
+  #MostPopular .mainpopular p, #MostPopular .mainpopular a {
+    text-align: center;
+    display: block;
+  }
+  #newprdcs h2, #newprdcs a {
+    display: block;
+    text-align: center;
+  }
+  #newprdcs .owl-theme a {
+    display: block;
+  }
 }
 
 #iconsfooter {
