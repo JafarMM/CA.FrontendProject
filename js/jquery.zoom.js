@@ -95,7 +95,7 @@
 			clicked = false,
 			touched = false;
 
-			// If a url wasn't specified, look for an image element.
+			 
 			if (!settings.url) {
 				var srcElement = source.querySelector('img');
 				if (srcElement) {
@@ -121,8 +121,7 @@
 					zoom.init();
 					zoom.move(e);
 
-					// Skip the fade-in for IE8 and lower since it chokes on fading-in
-					// and changing position based on mousemovement at the same time.
+					 
 					$img.stop()
 					.fadeTo($.support.opacity ? settings.duration : 0, 1, $.isFunction(settings.onZoomIn) ? settings.onZoomIn.call(img) : false);
 				}
@@ -235,3 +234,4 @@
 	$.fn.zoom.defaults = defaults;
 }(window.jQuery));
 
+ 

@@ -530,13 +530,13 @@ main .pageshortcut {
 
 main .pageshortcut p {
   display: inline-block;
-  color: gray;
+  color: #787878;
   margin-left: 5px;
 }
 
 main .pageshortcut a {
   text-decoration: none;
-  color: gray;
+  color: #787878;
   margin-left: 8px;
 }
 
@@ -549,13 +549,13 @@ main .shortcuttext {
 
 main .shortcuttext a {
   text-decoration: none;
-  color: gray;
+  color: #787878;
 }
 
 main .shortcuttext p {
   display: inline-block;
   font-size: 12px;
-  color: gray;
+  color: #787878;
 }
 
 main #productpage {
@@ -667,7 +667,7 @@ main #productpage .productright .startext {
   display: inline-block;
   margin-left: 8px;
   font-size: 12px;
-  color: gray;
+  color: #787878;
 }
 
 main #productpage .productright .fire {
@@ -693,14 +693,14 @@ main #productpage .productright .righttext {
   margin-left: 35px;
   font-size: 12px;
   font-weight: 350;
-  color: gray;
+  color: #787878;
   display: inline-block;
 }
 
 main #productpage .productright .text {
   font-size: 13px;
   font-weight: 350;
-  color: gray;
+  color: #787878;
 }
 
 main #productpage .productright #size {
@@ -713,7 +713,7 @@ main #productpage .productright #small {
   display: inline-block;
   font-size: 13px;
   font-weight: 350;
-  color: gray;
+  color: #787878;
 }
 
 main #productpage .productright .buttons .btn {
@@ -741,7 +741,7 @@ main #productpage .productright .quanity {
 main #productpage .productright #subtotal {
   font-size: 13px;
   font-weight: 350;
-  color: gray;
+  color: #787878;
   margin-top: 10px;
 }
 
@@ -804,7 +804,7 @@ main #productpage .productright .productbtn .chekbutton .checking {
 
 main #productpage .productright .productbtn #customers {
   font-size: 12px;
-  color: gray;
+  color: #787878;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
@@ -844,11 +844,12 @@ main #productpage .picturetext p {
   margin-left: 50px;
   font-size: 12px;
   line-height: 24px;
-  color: gray;
+  color: #787878;
 }
 
 main #bluelogos {
   padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 main #bluelogos .blueimg {
@@ -872,7 +873,7 @@ main #bluelogos .bluetext h5 {
 
 main #bluelogos .bluetext p {
   font-size: 12px;
-  color: gray;
+  color: #787878;
 }
 
 main #bluelogos .bluetext a {
@@ -924,7 +925,7 @@ main .phasellus p {
   font-size: 12px;
   padding-top: 20px;
   padding-bottom: 30px;
-  color: gray;
+  color: #787878;
   line-height: 24px;
 }
 
@@ -943,7 +944,7 @@ main #easteacollection .collectiontext h5 {
 main #easteacollection .collectiontext .ps p {
   margin-top: -10px;
   font-size: 12px;
-  color: gray;
+  color: #787878;
 }
 
 main #easteacollection .collectiontext .listp {
@@ -956,7 +957,7 @@ main #easteacollection .collectiontext .listp {
 
 main #easteacollection .collectiontext .listp li {
   font-size: 12px;
-  color: gray;
+  color: #787878;
   margin-top: 15px;
 }
 
@@ -997,7 +998,7 @@ main #blackteacollection .btcollectiontext .btps {
   width: 560px;
   height: 155px;
   font-size: 12px;
-  color: gray;
+  color: #787878;
 }
 
 main #blackteacollection .btcollectiontext .btps p {
@@ -1008,7 +1009,7 @@ main #blackteacollection .btcollectiontext .btps2 {
   width: 560px;
   height: 155px;
   font-size: 12px;
-  color: gray;
+  color: #787878;
   margin-top: -60px;
 }
 
@@ -1078,8 +1079,22 @@ header .menuright a {
   font-size: 17px;
 }
 
+header .menuright a .fa-shopping-cart::after {
+  content: '1';
+  position: absolute;
+  text-align: center;
+  color: white;
+  width: 20px;
+  height: 20px;
+  background-color: #e95144;
+  top: 8px;
+  right: 32px;
+  border-radius: 50%;
+}
+
 #iconsfooter {
   margin-left: 45px;
+  margin-bottom: 30px;
 }
 
 #iconsfooter .iconbox {
@@ -1103,6 +1118,12 @@ header .menuright a {
   font-weight: 300;
   color: grey;
   text-decoration: underline;
+}
+
+#endoffooter {
+  background-color: #f7f9f9;
+  width: 1263px;
+  height: 363px;
 }
 
 #endoffooter .contact {

@@ -1,5 +1,7 @@
 header{
    
+     
+
     img{
         width: 200px;
     }
@@ -60,6 +62,18 @@ header{
       a{
         padding: 23px;
         font-size: 17px;
+        .fa-shopping-cart::after{
+          content: '1';
+          position: absolute;
+          text-align: center;
+          color: white;
+          width: 20px;
+          height: 20px;
+          background-color: #e95144;
+          top: 8px;
+          right: 32px;
+          border-radius: 50%;
+        }
       }
     }
        
