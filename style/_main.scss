@@ -972,8 +972,132 @@ main{
            
         }
 
-         
+        //  blogstyleisstart
+        
+        .search{
+          margin-top: 100px;
+        }
+        .bannerimg{
+          img{
+            margin-top: 100px;
+            width: 903px;
+            height: 663px;
+          }
+          
+        }
+        .bannerimg2{
+          img{
+            margin-top: 20px;
+            width: 903px;
+              height: 663px;
+          }
+           
+        }
+        .rounded{
+           width: 280px;
+            height: 45px;
+        }
+        hr{
+          width: 285px;
+          margin-top: 40px;
+          border: 1px solid $little_color;
+        }
 
+        .blogcategories{
+          h5{
+
+          }
+          p{
+            font-size: $little_font;
+            color: $little_color;
+          }
+        }
+
+        .blogrecentpost{
+          h5{
+            padding-bottom: 10px;
+          }
+          padding-top: 10px;
+          padding-bottom: 30px;
+          .recentpart1{
+            width: 270px;
+            height: 85px;
+            display: flex;
+            img{
+              width: 85px;
+              height: 85px;
+              border-radius: 7%;
+              margin-top: 10px;
+            }
+            .recentpart1texts{
+              margin-left: 20px;
+              width: 185px;
+              height: 82px;
+              #naminos{
+                margin-top: 13px;
+                font-size: $little_font;
+              }
+              #date{
+                 
+                font-size: $little_font;
+                color: $little_color;
+              }
+            }
+          }
+          .recentpart2{
+            width: 270px;
+            height: 85px;
+            margin-top: 5px;
+            display: flex;
+            img{
+              width: 85px;
+              height: 85px;
+              border-radius: 7%;
+              margin-top: 35px;
+            }
+            .recentpart2texts{
+              margin-left: 20px;
+              width: 185px;
+              height: 82px;
+              #naminos{
+                margin-top: 39px;
+                font-size: $little_font;
+              }
+              #date{
+                 
+                font-size: $little_font;
+                color: $little_color;
+              }
+            }
+          }
+          .recentpart3{
+            width: 270px;
+            height: 85px;
+            margin-top: 30px;
+            display: flex;
+            img{
+              width: 85px;
+              height: 85px;
+              border-radius: 7%;
+              margin-top: 35px;
+            }
+            .recentpart3texts{
+              margin-left: 20px;
+              width: 185px;
+              height: 82px;
+              #naminos{
+                margin-top: 37px;
+                font-size: $little_font;
+              }
+              #date{
+                 
+                font-size: $little_font;
+                color: $little_color;
+              }
+            }
+          }
+
+        }
 } 
  
 

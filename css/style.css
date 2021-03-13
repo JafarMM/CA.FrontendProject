@@ -1017,6 +1017,142 @@ main #blackteacollection .btcollectiontext .btps2 p {
   margin-top: -10px;
 }
 
+main .search {
+  margin-top: 100px;
+}
+
+main .bannerimg img {
+  margin-top: 100px;
+  width: 903px;
+  height: 663px;
+}
+
+main .bannerimg2 img {
+  margin-top: 20px;
+  width: 903px;
+  height: 663px;
+}
+
+main .rounded {
+  width: 280px;
+  height: 45px;
+}
+
+main hr {
+  width: 285px;
+  margin-top: 40px;
+  border: 1px solid #787878;
+}
+
+main .blogcategories p {
+  font-size: 12px;
+  color: #787878;
+}
+
+main .blogrecentpost {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+main .blogrecentpost h5 {
+  padding-bottom: 10px;
+}
+
+main .blogrecentpost .recentpart1 {
+  width: 270px;
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .blogrecentpost .recentpart1 img {
+  width: 85px;
+  height: 85px;
+  border-radius: 7%;
+  margin-top: 10px;
+}
+
+main .blogrecentpost .recentpart1 .recentpart1texts {
+  margin-left: 20px;
+  width: 185px;
+  height: 82px;
+}
+
+main .blogrecentpost .recentpart1 .recentpart1texts #naminos {
+  margin-top: 13px;
+  font-size: 12px;
+}
+
+main .blogrecentpost .recentpart1 .recentpart1texts #date {
+  font-size: 12px;
+  color: #787878;
+}
+
+main .blogrecentpost .recentpart2 {
+  width: 270px;
+  height: 85px;
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .blogrecentpost .recentpart2 img {
+  width: 85px;
+  height: 85px;
+  border-radius: 7%;
+  margin-top: 35px;
+}
+
+main .blogrecentpost .recentpart2 .recentpart2texts {
+  margin-left: 20px;
+  width: 185px;
+  height: 82px;
+}
+
+main .blogrecentpost .recentpart2 .recentpart2texts #naminos {
+  margin-top: 39px;
+  font-size: 12px;
+}
+
+main .blogrecentpost .recentpart2 .recentpart2texts #date {
+  font-size: 12px;
+  color: #787878;
+}
+
+main .blogrecentpost .recentpart3 {
+  width: 270px;
+  height: 85px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .blogrecentpost .recentpart3 img {
+  width: 85px;
+  height: 85px;
+  border-radius: 7%;
+  margin-top: 35px;
+}
+
+main .blogrecentpost .recentpart3 .recentpart3texts {
+  margin-left: 20px;
+  width: 185px;
+  height: 82px;
+}
+
+main .blogrecentpost .recentpart3 .recentpart3texts #naminos {
+  margin-top: 37px;
+  font-size: 12px;
+}
+
+main .blogrecentpost .recentpart3 .recentpart3texts #date {
+  font-size: 12px;
+  color: #787878;
+}
+
 header img {
   width: 200px;
 }
