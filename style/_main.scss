@@ -527,6 +527,22 @@ main{
 
 /* styles unrelated to zoom */
 
+.shortcuttext{
+  width: 1263px;
+  height: 22px;
+   padding-left: 33px;
+   padding-top: 13px;
+   a{
+     text-decoration: none;
+     color: gray;
+   }
+  p{
+    display: inline-block;
+    font-size: $little_font;
+    color: gray;
+  }
+}
+
 #productpage{
     margin-top: 100px;
     .zoompicture{
@@ -566,85 +582,394 @@ main{
     
        
         }
+
+        .img1{
+          border: solid 1px black;     
+           width: 100px;
+           height: 98px;
+             
+           img{
+             width: 96px;
+            height: 96px;
+           }
+        }
+        .img2{
+          border: solid 1px black;     
+           width: 100px;
+           height: 98px;
+           
+          img{
+            width: 96px;
+            height: 96px;
+          }
+        }
+        .img3{
+          border: solid 1px black;     
+           width: 100px;
+           height: 98px;
+            
+           img{
+            width: 96px;
+            height: 96px;
+           }
+        }
+
+        .productright{
+          h4{
+              font-weight: 550;
+          }
+          margin-left: 80px;
+          img{
+              height: 14px;
+          }
+          .startext{
+              
+                 display: inline-block;
+                 margin-left: 8px;
+                 font-size: $little_font;
+                 color: gray;
+              
+          }
+           
+          .fire{
+              margin-left: 12px;
+              height: 30px;
+          }
+          .firetext{
+             display: inline-block;
+              color: red;
+              font-size: $little_font;
+          }
+           .lefttext{
+               margin-top: 20px;
+             display: inline-block;
+             font-size: $little_font;
+             font-weight: 500;
+             margin-bottom: 10px;
+           }
+           .righttext{
+               margin-left: 35px;
+               font-size: $little_font;
+               font-weight: 350;
+               color: gray;
+              display: inline-block;
+           }
+           .text{
+             
+             font-size: 13px;
+             font-weight: 350;
+             color: gray; 
+           }
+                 
+           #size{
+             display: inline-block;
+             font-size: 13px;
+             font-weight: 500;
+           }
+           #small{
+             display: inline-block;
+             font-size: 13px;
+             font-weight: 350;
+             color: gray;
+           }
+           .buttons{
+              
+             .btn{
+                 height: 33px;
+                 width: 65px;
+                 font-size: 13px;
+                 color: black;
+             }
+             .btn:hover{
+                 background-color: white;
+                 color: black;
+             }
+         } 
+         #quanity1{
+             margin-top: 30px;
+             font-size: 13px;
+         }
+          .quanity{
+              width: 130px;
+              height: 40px;
+          }
+          #subtotal{
+             font-size: 13px;
+             font-weight: 350;
+             color: gray;
+             margin-top: 10px;
+          }
+ 
+          .productbtn{
+           .btn1{
+               margin-top: 20px;
+               border-radius: 0;
+               width: 240px;
+               height: 50px;
+               color: white;
+               background-color: #17a8a3;
+             }
+             .btn1:hover{
+               color: rgb(255, 255, 255);
+              border-color:#0c865e;
+              background-color: #167757e3;
+          
+           }
+ 
+           .btn2{
+               margin-top: 20px;
+               margin-left: 20px;
+               border-radius: 0;
+               width: 240px;
+               height: 50px;
+               border-color: black;
+               color: black;
+               background-color:white;
+             }
+             .btn2:hover{
+               color: rgb(255, 255, 255);
+              border-color:#17a8a3;
+              background-color: #17a8a3;
+          
+           }
+           .chekbutton{
+             width: 510px;
+             height: 100px;
+             .btn3{
+               margin-top: 20px;
+                 border-radius: 0;
+                 width: 505px;
+                 height: 50px;
+                 color: #17a8a3;
+                 background-color: white;
+             }
+             .btn:hover{
+               color: rgb(255, 255, 255);
+                border-color:#ffc107;
+                background-color: #ff9307;
+             }
+ 
+             .checking{
+               margin-left: 20px;
+               margin-top: 10px;
+             }
+ 
+           }
+            
+           #customers{
+             font-size: $little_font;
+             color: gray;
+             font-weight: 400;
+             line-height: 24px;
+             text-align: center;
+             margin-top: 20px;
+           }
+ 
+            
+       }
+ 
+          .icons{
+            margin-left: -15px;
+           i{
+             margin-left: 15px;
+             color: black;
+           }
+         }
+         .antivirus{
+           margin-top: 20px;
+           img{
+            width: 390px;
+            height: 40px;
+           } 
+         }
+ 
+     }
+
+     .picturetext{
+      h4{
+          text-align: center;
+          margin-left: 50px;
+          font-size:16px ;
+          margin-bottom: 7px;
+          margin-top: 20px;
+          font-weight: 600;
+          line-height: 22px;
+      }
+      p{
+          text-align: center;
+          margin-left: 50px;
+          font-size: $little_font;
+          line-height: 24px;
+          color: gray;
+      }
+       
+ 
+
+ }
+
     }
     
-     .productright{
-         h4{
-             font-weight: 550;
-         }
-         margin-left: 80px;
-         img{
-             height: 14px;
-         }
-         .startext{
-             
-                display: inline-block;
-                margin-left: 8px;
+      
+          #bluelogos{
+            padding-top: 100px;
+            .blueimg{
+              display: flex;
+              justify-content: center;
+            }
+            .bluetext{
+              text-align: center;
+              h5{
+                font-size: 18px;
+                font-weight: 500;
+                margin-top: 25px;
+              }
+              p{
                 font-size: $little_font;
                 color: gray;
+              }
+              a{
+                font-size: $little_font;
+                color: #17a8a3;
+                line-height: 24px;
+                text-decoration: underline;
+              }
+            }
+          }
+
+         #CosmoMilan{
+           .cosmo{
+              
+             max-width: 100%;
+             height: 600px;
+             background-image: url("../images/banner.jpg");
+             .cosmotexts{
+                    width: 450px;
+                    height: 250px;
+                    text-align: left;
+                    padding-top: 180px;
+                    padding-left: 30px;
+                  p{
+                    color: white;
+                    font-size: 14px;
+                    margin-bottom: 15px;
+                  }
+                  h4{
+                    font-size: 26px;
+                    margin-bottom: 30px;
+                    color: white;
+                    font-weight: 600;
+                  }
+                .cosmomaintext{
+                  p{
+                    color: white;
+                    font-size: $little_font;
+                   
+                  }
+                                   
+                }
+
+             }
+           }
+         }
+
+         .phasellus{
+           margin-top: 30px;
+           margin-bottom: 30px;
+           max-width: 1400px;
+           p{
+             font-size: $little_font;
+             padding-top: 20px;
+             padding-bottom: 30px;
+             color: gray;
+             line-height: 24px;
+           }
+         }
+         #easteacollection{
+
+          .collectiontext{
              
+            width: 562px;
+            height: 370px;
+            padding-top:90px ;
+            h5{
+             font-size: 24px;
+             font-weight: 550;
+             margin-bottom: 35px;
+            }
+            .ps{
+             p{
+               margin-top: -10px;
+              font-size: $little_font;
+              color: gray;
+             }
+            }
+             
+            .listp{
+              margin-top: -20px;
+              padding-top: 40px;
+              width: 560px;
+              height: 140px;
+              margin-left: -23px;
+              li{
+                font-size: $little_font;
+                color: gray;
+                margin-top: 15px;
+              }
+            }
+            #btn4{
+              margin-top: 50px;
+             .btn4{
+               margin-top: 20px;
+                 border-radius: 0;
+                 width: 180px;
+                 height: 45px;
+                 color: black;
+                 background-color: white;
+                  
+             }
+             .btn4:hover{
+               color: rgb(255, 255, 255);
+                border-color:#17A8A3;
+                background-color: #17A8A3;
+             }
+            }
+             
+          }
          }
           
-         .fire{
-             margin-left: 12px;
-             height: 30px;
-         }
-         .firetext{
-            display: inline-block;
-             color: red;
-             font-size: $little_font;
-         }
-          .lefttext{
-              margin-top: 20px;
-            display: inline-block;
-            font-size: $little_font;
-            font-weight: 500;
-            margin-bottom: 10px;
-          }
-          .righttext{
-              margin-left: 35px;
+        #blackteacollection{
+          padding-top: 50px;
+           .btcollectiontext{
+             padding-top: 140px;
+            h5{
+              font-size: 24px;
+               font-weight: 550;
+               margin-bottom: 35px;
+            }
+            .btps{
+               width: 560px;
+               height: 155px;
               font-size: $little_font;
-              font-weight: 350;
               color: gray;
-             display: inline-block;
-          }
-          .text{
-            
-            font-size: 13px;
-            font-weight: 350;
-            color: gray; 
-          }
                 
-          #size{
-            display: inline-block;
-            font-size: 13px;
-            font-weight: 500;
-          }
-          #small{
-            display: inline-block;
-            font-size: 13px;
-            font-weight: 350;
-            color: gray;
-          }
-          .buttons{
-             
-            .btn{
-                height: 33px;
-                width: 65px;
-                font-size: 13px;
-                color: black;
+              p{
+                margin-top: -10px;
+              }
             }
-            .btn:hover{
-                background-color: white;
-                color: black;
+            .btps2{
+              width: 560px;
+              height: 155px;
+             font-size: $little_font;
+             color: gray;
+             margin-top: -60px;
+             p{
+              margin-top: -10px;
             }
-        } 
-        #quanity{
-            margin-top: 30px;
-            font-size: 13px;
+            }
+           }
+           
         }
-    }
-         
+
 }
  
 

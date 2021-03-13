@@ -540,6 +540,24 @@ main .pageshortcut a {
   margin-left: 8px;
 }
 
+main .shortcuttext {
+  width: 1263px;
+  height: 22px;
+  padding-left: 33px;
+  padding-top: 13px;
+}
+
+main .shortcuttext a {
+  text-decoration: none;
+  color: gray;
+}
+
+main .shortcuttext p {
+  display: inline-block;
+  font-size: 12px;
+  color: gray;
+}
+
 main #productpage {
   margin-top: 100px;
 }
@@ -600,37 +618,70 @@ main #productpage .zoompicture #ex2 img:active {
   cursor: url(grabbed.cur), default;
 }
 
-main .productright {
+main #productpage .img1 {
+  border: solid 1px black;
+  width: 100px;
+  height: 98px;
+}
+
+main #productpage .img1 img {
+  width: 96px;
+  height: 96px;
+}
+
+main #productpage .img2 {
+  border: solid 1px black;
+  width: 100px;
+  height: 98px;
+}
+
+main #productpage .img2 img {
+  width: 96px;
+  height: 96px;
+}
+
+main #productpage .img3 {
+  border: solid 1px black;
+  width: 100px;
+  height: 98px;
+}
+
+main #productpage .img3 img {
+  width: 96px;
+  height: 96px;
+}
+
+main #productpage .productright {
   margin-left: 80px;
 }
 
-main .productright h4 {
+main #productpage .productright h4 {
   font-weight: 550;
 }
 
-main .productright img {
+main #productpage .productright img {
   height: 14px;
 }
 
-main .productright .startext {
+main #productpage .productright .startext {
   display: inline-block;
   margin-left: 8px;
   font-size: 12px;
   color: gray;
 }
 
-main .productright .fire {
+main #productpage .productright .fire {
   margin-left: 12px;
   height: 30px;
 }
 
-main .productright .firetext {
+main #productpage .productright .firetext {
   display: inline-block;
   color: red;
   font-size: 12px;
 }
 
-main .productright .lefttext {
+main #productpage .productright .lefttext {
   margin-top: 20px;
   display: inline-block;
   font-size: 12px;
@@ -638,7 +689,7 @@ main .productright .lefttext {
   margin-bottom: 10px;
 }
 
-main .productright .righttext {
+main #productpage .productright .righttext {
   margin-left: 35px;
   font-size: 12px;
   font-weight: 350;
@@ -646,40 +697,323 @@ main .productright .righttext {
   display: inline-block;
 }
 
-main .productright .text {
+main #productpage .productright .text {
   font-size: 13px;
   font-weight: 350;
   color: gray;
 }
 
-main .productright #size {
+main #productpage .productright #size {
   display: inline-block;
   font-size: 13px;
   font-weight: 500;
 }
 
-main .productright #small {
+main #productpage .productright #small {
   display: inline-block;
   font-size: 13px;
   font-weight: 350;
   color: gray;
 }
 
-main .productright .buttons .btn {
+main #productpage .productright .buttons .btn {
   height: 33px;
   width: 65px;
   font-size: 13px;
   color: black;
 }
 
-main .productright .buttons .btn:hover {
+main #productpage .productright .buttons .btn:hover {
   background-color: white;
   color: black;
 }
 
-main .productright #quanity {
+main #productpage .productright #quanity1 {
   margin-top: 30px;
   font-size: 13px;
+}
+
+main #productpage .productright .quanity {
+  width: 130px;
+  height: 40px;
+}
+
+main #productpage .productright #subtotal {
+  font-size: 13px;
+  font-weight: 350;
+  color: gray;
+  margin-top: 10px;
+}
+
+main #productpage .productright .productbtn .btn1 {
+  margin-top: 20px;
+  border-radius: 0;
+  width: 240px;
+  height: 50px;
+  color: white;
+  background-color: #17a8a3;
+}
+
+main #productpage .productright .productbtn .btn1:hover {
+  color: white;
+  border-color: #0c865e;
+  background-color: #167757e3;
+}
+
+main #productpage .productright .productbtn .btn2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 0;
+  width: 240px;
+  height: 50px;
+  border-color: black;
+  color: black;
+  background-color: white;
+}
+
+main #productpage .productright .productbtn .btn2:hover {
+  color: white;
+  border-color: #17a8a3;
+  background-color: #17a8a3;
+}
+
+main #productpage .productright .productbtn .chekbutton {
+  width: 510px;
+  height: 100px;
+}
+
+main #productpage .productright .productbtn .chekbutton .btn3 {
+  margin-top: 20px;
+  border-radius: 0;
+  width: 505px;
+  height: 50px;
+  color: #17a8a3;
+  background-color: white;
+}
+
+main #productpage .productright .productbtn .chekbutton .btn:hover {
+  color: white;
+  border-color: #ffc107;
+  background-color: #ff9307;
+}
+
+main #productpage .productright .productbtn .chekbutton .checking {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+main #productpage .productright .productbtn #customers {
+  font-size: 12px;
+  color: gray;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+main #productpage .productright .icons {
+  margin-left: -15px;
+}
+
+main #productpage .productright .icons i {
+  margin-left: 15px;
+  color: black;
+}
+
+main #productpage .productright .antivirus {
+  margin-top: 20px;
+}
+
+main #productpage .productright .antivirus img {
+  width: 390px;
+  height: 40px;
+}
+
+main #productpage .picturetext h4 {
+  text-align: center;
+  margin-left: 50px;
+  font-size: 16px;
+  margin-bottom: 7px;
+  margin-top: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+main #productpage .picturetext p {
+  text-align: center;
+  margin-left: 50px;
+  font-size: 12px;
+  line-height: 24px;
+  color: gray;
+}
+
+main #bluelogos {
+  padding-top: 100px;
+}
+
+main #bluelogos .blueimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #bluelogos .bluetext {
+  text-align: center;
+}
+
+main #bluelogos .bluetext h5 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+main #bluelogos .bluetext p {
+  font-size: 12px;
+  color: gray;
+}
+
+main #bluelogos .bluetext a {
+  font-size: 12px;
+  color: #17a8a3;
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+main #CosmoMilan .cosmo {
+  max-width: 100%;
+  height: 600px;
+  background-image: url("../images/banner.jpg");
+}
+
+main #CosmoMilan .cosmo .cosmotexts {
+  width: 450px;
+  height: 250px;
+  text-align: left;
+  padding-top: 180px;
+  padding-left: 30px;
+}
+
+main #CosmoMilan .cosmo .cosmotexts p {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+main #CosmoMilan .cosmo .cosmotexts h4 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+main #CosmoMilan .cosmo .cosmotexts .cosmomaintext p {
+  color: white;
+  font-size: 12px;
+}
+
+main .phasellus {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 1400px;
+}
+
+main .phasellus p {
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: gray;
+  line-height: 24px;
+}
+
+main #easteacollection .collectiontext {
+  width: 562px;
+  height: 370px;
+  padding-top: 90px;
+}
+
+main #easteacollection .collectiontext h5 {
+  font-size: 24px;
+  font-weight: 550;
+  margin-bottom: 35px;
+}
+
+main #easteacollection .collectiontext .ps p {
+  margin-top: -10px;
+  font-size: 12px;
+  color: gray;
+}
+
+main #easteacollection .collectiontext .listp {
+  margin-top: -20px;
+  padding-top: 40px;
+  width: 560px;
+  height: 140px;
+  margin-left: -23px;
+}
+
+main #easteacollection .collectiontext .listp li {
+  font-size: 12px;
+  color: gray;
+  margin-top: 15px;
+}
+
+main #easteacollection .collectiontext #btn4 {
+  margin-top: 50px;
+}
+
+main #easteacollection .collectiontext #btn4 .btn4 {
+  margin-top: 20px;
+  border-radius: 0;
+  width: 180px;
+  height: 45px;
+  color: black;
+  background-color: white;
+}
+
+main #easteacollection .collectiontext #btn4 .btn4:hover {
+  color: white;
+  border-color: #17A8A3;
+  background-color: #17A8A3;
+}
+
+main #blackteacollection {
+  padding-top: 50px;
+}
+
+main #blackteacollection .btcollectiontext {
+  padding-top: 140px;
+}
+
+main #blackteacollection .btcollectiontext h5 {
+  font-size: 24px;
+  font-weight: 550;
+  margin-bottom: 35px;
+}
+
+main #blackteacollection .btcollectiontext .btps {
+  width: 560px;
+  height: 155px;
+  font-size: 12px;
+  color: gray;
+}
+
+main #blackteacollection .btcollectiontext .btps p {
+  margin-top: -10px;
+}
+
+main #blackteacollection .btcollectiontext .btps2 {
+  width: 560px;
+  height: 155px;
+  font-size: 12px;
+  color: gray;
+  margin-top: -60px;
+}
+
+main #blackteacollection .btcollectiontext .btps2 p {
+  margin-top: -10px;
 }
 
 header img {
