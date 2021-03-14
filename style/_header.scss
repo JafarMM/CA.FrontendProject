@@ -1,6 +1,18 @@
 header{
-   
-     
+  .logoandtext{
+    display: flex;
+  }
+   .navbarm{
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+   }
+     .firsthead{
+       display: flex;
+       justify-content: flex-end;
+        
+     }
 
     img{
         width: 200px;
@@ -25,8 +37,8 @@ header{
      width: 35px;
      height: 15px;
      background-color: rgb(255, 51, 0);
-     top: 3px;
-     left: 480px;
+      bottom: 47px;
+     left: 465px;
      border-radius: 12%;
    }
    
@@ -39,8 +51,8 @@ header{
      width: 35px;
      height: 15px;
      background-color: rgb(255, 196, 0);
-     top: 3px;
-     right: 236px;
+     bottom: 47px;
+     right: 230px;
      border-radius: 12%;
    }
    
@@ -53,14 +65,16 @@ header{
      width: 35px;
      height: 15px;
      background-color: rgb(1, 192, 112);
-     top: 3px;
-     right: 137px;
+     bottom: 47px;
+     right: 130px;
      border-radius: 12%;
    }
    
     .menuright{
+       
+
       a{
-        padding: 23px;
+        padding: 21px;
         font-size: 17px;
         .fa-shopping-cart::after{
           content: '1';
@@ -74,6 +88,7 @@ header{
           right: 32px;
           border-radius: 50%;
         }
+         
       }
     }
        

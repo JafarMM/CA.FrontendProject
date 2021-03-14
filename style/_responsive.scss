@@ -1,31 +1,86 @@
 @media  screen and (max-width: 1024px) {
-    .menuright{
-        display: none;
+     .navbarm{
+         a{
+             display: none;
+         }
+     }
+     .menuright{
+         display: none;
+     }
+    .navbarm{
+        .logo{
+            a{
+                img{
+                    width: 150px;
+                }
+                display: block;
+                padding-left: 420px;
+            }
+        }
     }
-      .logoandtext{
-          a{display: none;}
-             
-      }
-       #MostPopular{
-           .mainpopular{
-               h2{
-                   text-align: center;
-               }
-               p,a{
-                   text-align: center;
-                   display: block;
-               }
-           }
-       }
-       #newprdcs{
-           h2,a{
-               display: block;
-               text-align: center;
-           }
-           .owl-theme{
-               a{
-                   display: block;
-               }
-           }
-       }
+
+        .MostPopular{
+            .popularimages{
+                .popular3{
+                    overflow-x: scroll;
+                }
+            }
+        }
+
+         #partvideo{
+             .leftpart{   
+                 br{
+                     display: none;
+                 }
+                 h2{
+                     font-size: 35px;
+                 }
+                  
+             }
+         }
+
+         #imageGallery{
+             .images{
+                 .firstrow{
+                     .withoutimg{
+                         img{
+                             display: none;
+                         }
+                     }
+                 }
+                .secondrow{
+                    img{
+                        display: none;
+                    }
+                }
+             }
+              
+         }
+
+         footer{
+             #iconsfooter{           
+                   .startoficon{
+                    display: none;
+                   }  
+                    
+             }
+              
+         }
+
+  }
+
+  @media  screen and (max-width: 910px){
+
+    .navbarm{
+        .logo{
+            a{
+                img{
+                    width: 150px;
+                }
+                display: block;
+                padding-left: 270px;
+            }
+        }
+    }
+
   }

@@ -1,5 +1,20 @@
-main {
-  /* styles unrelated to zoom */
+main .my-breadcrumb {
+  padding-left: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .my-breadcrumb a {
+  color: black;
+}
+
+main .my-breadcrumb .breadcrumb-icon {
+  padding: 0 5px;
+}
+
+main .titleh3 {
+  padding-left: 20px;
 }
 
 main .slide, main .carousel-inner {
@@ -64,13 +79,19 @@ main #MostPopular {
   margin-top: 100px;
 }
 
-main #MostPopular .mainpopular {
-  margin-bottom: 35px;
-}
-
-main #MostPopular .mainpopular h2 {
+main #MostPopular h2 {
   font-weight: 400;
   text-align: center;
+}
+
+main #MostPopular .mainpopular {
+  margin-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main #MostPopular .mainpopular p {
@@ -78,9 +99,7 @@ main #MostPopular .mainpopular p {
   font-weight: 400;
   color: grey;
   font-style: normal;
-  display: inline-block;
   text-align: center;
-  margin-left: 470px;
 }
 
 main #MostPopular .mainpopular a {
@@ -92,7 +111,8 @@ main #MostPopular .mainpopular a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 12px;
-  margin-left: 180px;
+  position: absolute;
+  right: 30px;
 }
 
 main #MostPopular .popularimages {
@@ -113,60 +133,123 @@ main #MostPopular .popularimages .popular3 img {
   max-width: 100%;
 }
 
-main #MostPopular .teas {
-  margin-top: 40px;
+main #MostPopular .popularimages .firstteas {
+  padding: 30px;
 }
 
-main #MostPopular .teas .btn {
-  width: 200px;
-  height: 45px;
-  border-radius: 0;
-  border-color: #505050;
+main #MostPopular .popularimages .firstteas h3 {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+main #MostPopular .popularimages .firstteas p {
+  font-size: 12px;
+  color: #787878;
+}
+
+main #MostPopular .popularimages .firstteas .btn1 {
+  border-radius: 0%;
   color: black;
+  border-color: black;
 }
 
-main #MostPopular .teas .btn:hover {
+main #MostPopular .popularimages .firstteas .btn1:hover {
   color: white;
-  border-color: #5bc0de;
+  background-color: #17A8A3;
+  border-color: #17A8A3;
 }
 
-main #MostPopular .teas .firstteas {
-  margin-right: 50px;
+main #MostPopular .popularimages .secondteas {
+  padding: 30px;
 }
 
-main #MostPopular .teas .firstteas h3, main #MostPopular .teas .firstteas p, main #MostPopular .teas .firstteas .btn {
-  margin-bottom: 40px;
+main #MostPopular .popularimages .secondteas h3 {
+  font-size: 20px;
+  font-weight: 550;
 }
 
-main #MostPopular .teas .firstteas p {
+main #MostPopular .popularimages .secondteas p {
   font-size: 12px;
-  color: grey;
+  color: #787878;
 }
 
-main #MostPopular .teas .secondteas h3, main #MostPopular .teas .secondteas p, main #MostPopular .teas .secondteas .btn {
-  margin-bottom: 40px;
+main #MostPopular .popularimages .secondteas .btn2 {
+  border-radius: 0%;
+  color: black;
+  border-color: black;
 }
 
-main #MostPopular .teas .secondteas p {
+main #MostPopular .popularimages .secondteas .btn2:hover {
+  color: white;
+  background-color: #17A8A3;
+  border-color: #17A8A3;
+}
+
+main #MostPopular .popularimages .thirdteas {
+  padding: 30px;
+}
+
+main #MostPopular .popularimages .thirdteas h3 {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+main #MostPopular .popularimages .thirdteas p {
   font-size: 12px;
-  color: grey;
+  color: #787878;
 }
 
-main #MostPopular .teas .thirdteas {
-  margin-left: 50px;
+main #MostPopular .popularimages .thirdteas .btn3 {
+  border-radius: 0%;
+  color: black;
+  border-color: black;
 }
 
-main #MostPopular .teas .thirdteas h3, main #MostPopular .teas .thirdteas p, main #MostPopular .teas .thirdteas .btn {
-  margin-bottom: 40px;
-}
-
-main #MostPopular .teas .thirdteas p {
-  font-size: 12px;
-  color: grey;
+main #MostPopular .popularimages .thirdteas .btn3:hover {
+  color: white;
+  background-color: #17A8A3;
+  border-color: #17A8A3;
 }
 
 main #newprdcs {
   margin-bottom: 50px;
+}
+
+main #newprdcs .hearticon {
+  position: relative;
+}
+
+main #newprdcs .hearticon i {
+  position: absolute;
+  bottom: 200px;
+  left: 200px;
+}
+
+main #newprdcs .mainnewproducts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #newprdcs .mainnewproducts h2 {
+  font-size: 24px;
+  font-weight: 550;
+}
+
+main #newprdcs .mainnewproducts a {
+  color: #17a8a3;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 12px;
+  position: absolute;
+  right: 40px;
 }
 
 main #newprdcs .card {
@@ -263,27 +346,6 @@ main #newprdcs .fifthcard::after {
   border-radius: 0;
 }
 
-main #newprdcs h2 {
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  font-weight: bold;
-  display: inline-block;
-  margin-left: 430px;
-}
-
-main #newprdcs a {
-  color: #17a8a3;
-  text-decoration: underline;
-  background-color: transparent;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-size: 12px;
-  margin-left: 345px;
-}
-
 main #newprdcs p {
   font-size: 12px;
   font-weight: 500px;
@@ -310,8 +372,6 @@ main #partvideo {
 main #partvideo h2 {
   font-weight: bold;
   font-size: 50px;
-  margin-right: 100px;
-  margin-left: 40px;
   color: #17a8a3;
 }
 
@@ -319,13 +379,10 @@ main #partvideo p {
   font-weight: 300;
   font-size: 15px;
   margin-top: 20px;
-  margin-left: 40px;
-  margin-right: 100px;
 }
 
 main #partvideo .btn {
   margin-top: 20px;
-  margin-left: 40px;
   border-radius: 0;
   width: 195px;
   height: 45px;
@@ -345,6 +402,7 @@ main #partvideo img {
 
 main #partvideo .leftpart {
   margin-top: 108px;
+  padding-left: 30px;
 }
 
 main #imageGallery {
@@ -365,13 +423,16 @@ main #imageGallery .images img {
   max-width: 100%;
 }
 
-main #imageGallery .btn {
+main #imageGallery .btnimg {
+  text-align: center;
+}
+
+main #imageGallery .btnimg a {
   width: 200px;
   height: 45px;
   border-radius: 0;
   border-color: #505050;
   color: black;
-  margin-left: 545px;
   margin-top: 50px;
 }
 
@@ -385,14 +446,18 @@ main #RecentPosts {
 }
 
 main #RecentPosts .mainrecent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-bottom: 35px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main #RecentPosts .mainrecent h2 {
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
-  display: inline-block;
-  margin-left: 540px;
 }
 
 main #RecentPosts .mainrecent a {
@@ -404,7 +469,9 @@ main #RecentPosts .mainrecent a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 12px;
-  margin-left: 250px;
+  position: absolute;
+  margin-top: 10px;
+  right: 40px;
 }
 
 main #RecentPosts .recentimages {
@@ -417,86 +484,125 @@ main #RecentPosts .recentimages .recent1 img {
   max-width: 100%;
 }
 
+main #RecentPosts .recentimages .recent1 .firstrecenteas {
+  padding: 30px;
+}
+
+main #RecentPosts .recentimages .recent1 .firstrecenteas h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+main #RecentPosts .recentimages .recent1 .firstrecenteas p {
+  font-size: 12px;
+  color: #787878;
+}
+
+main #RecentPosts .recentimages .recent1 .firstrecenteas .btn11 {
+  border-radius: 0%;
+  color: black;
+  border-color: black;
+}
+
+main #RecentPosts .recentimages .recent1 .firstrecenteas .btn11:hover {
+  color: white;
+  background-color: #17A8A3;
+  border-color: #17A8A3;
+}
+
 main #RecentPosts .recentimages .recent2 img {
   max-width: 100%;
+}
+
+main #RecentPosts .recentimages .recent2 .secondrecentteas {
+  padding: 30px;
+}
+
+main #RecentPosts .recentimages .recent2 .secondrecentteas h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+main #RecentPosts .recentimages .recent2 .secondrecentteas p {
+  font-size: 12px;
+  color: #787878;
+}
+
+main #RecentPosts .recentimages .recent2 .secondrecentteas .btn22 {
+  border-radius: 0%;
+  color: black;
+  border-color: black;
+}
+
+main #RecentPosts .recentimages .recent2 .secondrecentteas .btn22:hover {
+  color: white;
+  background-color: #17A8A3;
+  border-color: #17A8A3;
 }
 
 main #RecentPosts .recentimages .recent3 img {
   max-width: 100%;
 }
 
-main #RecentPosts .recenteas {
-  margin-top: 40px;
+main #RecentPosts .recentimages .recent3 .thirdrecentteas {
+  padding: 30px;
 }
 
-main #RecentPosts .recenteas .btn {
-  width: 150px;
-  height: 45px;
-  border-radius: 0;
-  border-color: #505050;
+main #RecentPosts .recentimages .recent3 .thirdrecentteas h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+main #RecentPosts .recentimages .recent3 .thirdrecentteas p {
+  font-size: 12px;
+  color: #787878;
+}
+
+main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33 {
+  border-radius: 0%;
   color: black;
+  border-color: black;
 }
 
-main #RecentPosts .recenteas .btn:hover {
+main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33:hover {
   color: white;
-  border-color: #5bc0de;
+  background-color: #17A8A3;
+  border-color: #17A8A3;
 }
 
-main #RecentPosts .recenteas .firstrecenteas {
-  margin-right: 50px;
-}
-
-main #RecentPosts .recenteas .firstrecenteas h3, main #RecentPosts .recenteas .firstrecenteas p, main #RecentPosts .recenteas .firstrecenteas .btn {
-  margin-bottom: 40px;
-}
-
-main #RecentPosts .recenteas .secondrecenteas h3, main #RecentPosts .recenteas .secondrecenteas p, main #RecentPosts .recenteas .secondrecenteas .btn {
-  margin-bottom: 40px;
-}
-
-main #RecentPosts .recenteas .thirdrecenteas {
-  margin-left: 50px;
-}
-
-main #RecentPosts .recenteas .thirdrecenteas h3, main #RecentPosts .recenteas .thirdrecenteas p, main #RecentPosts .recenteas .thirdrecenteas .btn {
-  margin-bottom: 40px;
-}
-
-main #imgsection {
+#imgsection {
   margin-bottom: 50px;
 }
 
-main #imgsection .imgmain {
-  height: 700px;
-  max-width: 100%;
-  background-image: url("../images/igor-miske-CwVE4xCAA8Y-unsplash.jpg");
+#imgsection .imgmain {
+  background-image: url("../imagesgallery/bg_newsletter.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
+  min-height: 780px;
 }
 
-main #imgsection .imgmain .texts {
-  padding-top: 130px;
-  padding-left: 600px;
+#imgsection .imgmain .texts {
+  padding-top: 150px;
 }
 
-main #imgsection .imgmain .texts h1 {
+#imgsection .imgmain .texts h1 {
   color: white;
   font-weight: 610;
   font-size: 45px;
   padding-bottom: 36px;
 }
 
-main #imgsection .imgmain .texts p {
+#imgsection .imgmain .texts p {
   color: white;
   font-size: 12px;
 }
 
-main #imgsection .imgmain .emailinput {
+#imgsection .imgmain .emailinput {
   padding-top: 36px;
 }
 
-main #imgsection .imgmain .emailinput .form-control {
-  width: 480px;
+#imgsection .imgmain .emailinput .form-control {
   background: transparent;
   fill: none;
   border-top: 0px;
@@ -506,7 +612,7 @@ main #imgsection .imgmain .emailinput .form-control {
   border-bottom: 2px solid white;
 }
 
-main #imgsection .imgmain .emailbutton {
+#imgsection .imgmain .emailbutton {
   margin-top: 23px;
   margin-left: 20px;
   height: 50px;
@@ -516,64 +622,59 @@ main #imgsection .imgmain .emailbutton {
   width: 140px;
 }
 
-main #imgsection .imgmain .emailbutton:hover {
+#imgsection .imgmain .emailbutton:hover {
   color: white;
   border-color: #0c865e;
   background-color: #167757e3;
 }
 
-main .pageshortcut {
+.pageshortcut {
   margin-left: 12px;
   margin-top: 80px;
   font-size: 12px;
 }
 
-main .pageshortcut p {
+.pageshortcut p {
   display: inline-block;
   color: #787878;
   margin-left: 5px;
 }
 
-main .pageshortcut a {
+.pageshortcut a {
   text-decoration: none;
   color: #787878;
   margin-left: 8px;
 }
 
-main .shortcuttext {
+.shortcuttext {
   width: 1263px;
   height: 22px;
   padding-left: 15px;
   padding-top: 13px;
 }
 
-main .shortcuttext a {
+.shortcuttext a {
   text-decoration: none;
   color: #787878;
 }
 
-main .shortcuttext p {
+.shortcuttext p {
   display: inline-block;
   font-size: 12px;
   color: #787878;
 }
 
-main #productpage {
+#productpage {
   margin-top: 100px;
 }
 
-main #productpage .zoompicture {
-  /* these styles are for the demo, but are not required for the plugin */
-  /* magnifying glass icon */
-}
-
-main #productpage .zoompicture * {
+#productpage .zoompicture * {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-main #productpage .zoompicture p {
+#productpage .zoompicture p {
   position: absolute;
   top: 3px;
   right: 28px;
@@ -581,12 +682,12 @@ main #productpage .zoompicture p {
   font: bold 13px/1 sans-serif;
 }
 
-main #productpage .zoompicture .zoom {
+#productpage .zoompicture .zoom {
   display: inline-block;
   position: relative;
 }
 
-main #productpage .zoompicture .zoom:after {
+#productpage .zoompicture .zoom:after {
   content: '';
   display: block;
   width: 33px;
@@ -597,91 +698,91 @@ main #productpage .zoompicture .zoom:after {
   background: url(icon.png);
 }
 
-main #productpage .zoompicture .zoom img {
+#productpage .zoompicture .zoom img {
   display: block;
   height: 540px;
 }
 
-main #productpage .zoompicture .zoom img::-moz-selection {
+#productpage .zoompicture .zoom img::-moz-selection {
   background-color: transparent;
 }
 
-main #productpage .zoompicture .zoom img::selection {
+#productpage .zoompicture .zoom img::selection {
   background-color: transparent;
 }
 
-main #productpage .zoompicture #ex2 img:hover {
+#productpage .zoompicture #ex2 img:hover {
   cursor: url(grab.cur), default;
 }
 
-main #productpage .zoompicture #ex2 img:active {
+#productpage .zoompicture #ex2 img:active {
   cursor: url(grabbed.cur), default;
 }
 
-main #productpage .img1 {
+#productpage .img1 {
   border: solid 1px black;
   width: 100px;
   height: 98px;
 }
 
-main #productpage .img1 img {
+#productpage .img1 img {
   width: 96px;
   height: 96px;
 }
 
-main #productpage .img2 {
+#productpage .img2 {
   border: solid 1px black;
   width: 100px;
   height: 98px;
 }
 
-main #productpage .img2 img {
+#productpage .img2 img {
   width: 96px;
   height: 96px;
 }
 
-main #productpage .img3 {
+#productpage .img3 {
   border: solid 1px black;
   width: 100px;
   height: 98px;
 }
 
-main #productpage .img3 img {
+#productpage .img3 img {
   width: 96px;
   height: 96px;
 }
 
-main #productpage .productright {
+#productpage .productright {
   margin-left: 80px;
 }
 
-main #productpage .productright h4 {
+#productpage .productright h4 {
   font-weight: 550;
 }
 
-main #productpage .productright img {
+#productpage .productright img {
   height: 14px;
 }
 
-main #productpage .productright .startext {
+#productpage .productright .startext {
   display: inline-block;
   margin-left: 8px;
   font-size: 12px;
   color: #787878;
 }
 
-main #productpage .productright .fire {
+#productpage .productright .fire {
   margin-left: 12px;
   height: 30px;
 }
 
-main #productpage .productright .firetext {
+#productpage .productright .firetext {
   display: inline-block;
   color: red;
   font-size: 12px;
 }
 
-main #productpage .productright .lefttext {
+#productpage .productright .lefttext {
   margin-top: 20px;
   display: inline-block;
   font-size: 12px;
@@ -689,7 +790,7 @@ main #productpage .productright .lefttext {
   margin-bottom: 10px;
 }
 
-main #productpage .productright .righttext {
+#productpage .productright .righttext {
   margin-left: 35px;
   font-size: 12px;
   font-weight: 350;
@@ -697,55 +798,55 @@ main #productpage .productright .righttext {
   display: inline-block;
 }
 
-main #productpage .productright .text {
+#productpage .productright .text {
   font-size: 13px;
   font-weight: 350;
   color: #787878;
 }
 
-main #productpage .productright #size {
+#productpage .productright #size {
   display: inline-block;
   font-size: 13px;
   font-weight: 500;
 }
 
-main #productpage .productright #small {
+#productpage .productright #small {
   display: inline-block;
   font-size: 13px;
   font-weight: 350;
   color: #787878;
 }
 
-main #productpage .productright .buttons .btn {
+#productpage .productright .buttons .btn {
   height: 33px;
   width: 65px;
   font-size: 13px;
   color: black;
 }
 
-main #productpage .productright .buttons .btn:hover {
+#productpage .productright .buttons .btn:hover {
   background-color: white;
   color: black;
 }
 
-main #productpage .productright #quanity1 {
+#productpage .productright #quanity1 {
   margin-top: 30px;
   font-size: 13px;
 }
 
-main #productpage .productright .quanity {
+#productpage .productright .quanity {
   width: 130px;
   height: 40px;
 }
 
-main #productpage .productright #subtotal {
+#productpage .productright #subtotal {
   font-size: 13px;
   font-weight: 350;
   color: #787878;
   margin-top: 10px;
 }
 
-main #productpage .productright .productbtn .btn1 {
+#productpage .productright .productbtn .btn1 {
   margin-top: 20px;
   border-radius: 0;
   width: 240px;
@@ -754,13 +855,13 @@ main #productpage .productright .productbtn .btn1 {
   background-color: #17a8a3;
 }
 
-main #productpage .productright .productbtn .btn1:hover {
+#productpage .productright .productbtn .btn1:hover {
   color: white;
   border-color: #0c865e;
   background-color: #167757e3;
 }
 
-main #productpage .productright .productbtn .btn2 {
+#productpage .productright .productbtn .btn2 {
   margin-top: 20px;
   margin-left: 20px;
   border-radius: 0;
@@ -771,18 +872,18 @@ main #productpage .productright .productbtn .btn2 {
   background-color: white;
 }
 
-main #productpage .productright .productbtn .btn2:hover {
+#productpage .productright .productbtn .btn2:hover {
   color: white;
   border-color: #17a8a3;
   background-color: #17a8a3;
 }
 
-main #productpage .productright .productbtn .chekbutton {
+#productpage .productright .productbtn .chekbutton {
   width: 510px;
   height: 100px;
 }
 
-main #productpage .productright .productbtn .chekbutton .btn3 {
+#productpage .productright .productbtn .chekbutton .btn3 {
   margin-top: 20px;
   border-radius: 0;
   width: 505px;
@@ -791,18 +892,18 @@ main #productpage .productright .productbtn .chekbutton .btn3 {
   background-color: white;
 }
 
-main #productpage .productright .productbtn .chekbutton .btn:hover {
+#productpage .productright .productbtn .chekbutton .btn:hover {
   color: white;
   border-color: #ffc107;
   background-color: #ff9307;
 }
 
-main #productpage .productright .productbtn .chekbutton .checking {
+#productpage .productright .productbtn .chekbutton .checking {
   margin-left: 20px;
   margin-top: 10px;
 }
 
-main #productpage .productright .productbtn #customers {
+#productpage .productright .productbtn #customers {
   font-size: 12px;
   color: #787878;
   font-weight: 400;
@@ -811,25 +912,25 @@ main #productpage .productright .productbtn #customers {
   margin-top: 20px;
 }
 
-main #productpage .productright .icons {
+#productpage .productright .icons {
   margin-left: -15px;
 }
 
-main #productpage .productright .icons i {
+#productpage .productright .icons i {
   margin-left: 15px;
   color: black;
 }
 
-main #productpage .productright .antivirus {
+#productpage .productright .antivirus {
   margin-top: 20px;
 }
 
-main #productpage .productright .antivirus img {
+#productpage .productright .antivirus img {
   width: 390px;
   height: 40px;
 }
 
-main #productpage .picturetext h4 {
+#productpage .picturetext h4 {
   text-align: center;
   margin-left: 50px;
   font-size: 16px;
@@ -839,7 +940,7 @@ main #productpage .picturetext h4 {
   line-height: 22px;
 }
 
-main #productpage .picturetext p {
+#productpage .picturetext p {
   text-align: center;
   margin-left: 50px;
   font-size: 12px;
@@ -847,12 +948,12 @@ main #productpage .picturetext p {
   color: #787878;
 }
 
-main #bluelogos {
+#bluelogos {
   padding-top: 100px;
   padding-bottom: 80px;
 }
 
-main #bluelogos .blueimg {
+#bluelogos .blueimg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -861,35 +962,35 @@ main #bluelogos .blueimg {
           justify-content: center;
 }
 
-main #bluelogos .bluetext {
+#bluelogos .bluetext {
   text-align: center;
 }
 
-main #bluelogos .bluetext h5 {
+#bluelogos .bluetext h5 {
   font-size: 18px;
   font-weight: 500;
   margin-top: 25px;
 }
 
-main #bluelogos .bluetext p {
+#bluelogos .bluetext p {
   font-size: 12px;
   color: #787878;
 }
 
-main #bluelogos .bluetext a {
+#bluelogos .bluetext a {
   font-size: 12px;
   color: #17a8a3;
   line-height: 24px;
   text-decoration: underline;
 }
 
-main #CosmoMilan .cosmo {
+#CosmoMilan .cosmo {
   max-width: 100%;
   height: 600px;
   background-image: url("../images/banner.jpg");
 }
 
-main #CosmoMilan .cosmo .cosmotexts {
+#CosmoMilan .cosmo .cosmotexts {
   width: 450px;
   height: 250px;
   text-align: left;
@@ -897,31 +998,31 @@ main #CosmoMilan .cosmo .cosmotexts {
   padding-left: 30px;
 }
 
-main #CosmoMilan .cosmo .cosmotexts p {
+#CosmoMilan .cosmo .cosmotexts p {
   color: white;
   font-size: 14px;
   margin-bottom: 15px;
 }
 
-main #CosmoMilan .cosmo .cosmotexts h4 {
+#CosmoMilan .cosmo .cosmotexts h4 {
   font-size: 26px;
   margin-bottom: 30px;
   color: white;
   font-weight: 600;
 }
 
-main #CosmoMilan .cosmo .cosmotexts .cosmomaintext p {
+#CosmoMilan .cosmo .cosmotexts .cosmomaintext p {
   color: white;
   font-size: 12px;
 }
 
-main .phasellus {
+.phasellus {
   margin-top: 30px;
   margin-bottom: 30px;
   max-width: 1400px;
 }
 
-main .phasellus p {
+.phasellus p {
   font-size: 12px;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -929,25 +1030,25 @@ main .phasellus p {
   line-height: 24px;
 }
 
-main #easteacollection .collectiontext {
+#easteacollection .collectiontext {
   width: 562px;
   height: 370px;
   padding-top: 90px;
 }
 
-main #easteacollection .collectiontext h5 {
+#easteacollection .collectiontext h5 {
   font-size: 24px;
   font-weight: 550;
   margin-bottom: 35px;
 }
 
-main #easteacollection .collectiontext .ps p {
+#easteacollection .collectiontext .ps p {
   margin-top: -10px;
   font-size: 12px;
   color: #787878;
 }
 
-main #easteacollection .collectiontext .listp {
+#easteacollection .collectiontext .listp {
   margin-top: -20px;
   padding-top: 40px;
   width: 560px;
@@ -955,17 +1056,17 @@ main #easteacollection .collectiontext .listp {
   margin-left: -23px;
 }
 
-main #easteacollection .collectiontext .listp li {
+#easteacollection .collectiontext .listp li {
   font-size: 12px;
   color: #787878;
   margin-top: 15px;
 }
 
-main #easteacollection .collectiontext #btn4 {
+#easteacollection .collectiontext #btn4 {
   margin-top: 50px;
 }
 
-main #easteacollection .collectiontext #btn4 .btn4 {
+#easteacollection .collectiontext #btn4 .btn4 {
   margin-top: 20px;
   border-radius: 0;
   width: 180px;
@@ -974,38 +1075,38 @@ main #easteacollection .collectiontext #btn4 .btn4 {
   background-color: white;
 }
 
-main #easteacollection .collectiontext #btn4 .btn4:hover {
+#easteacollection .collectiontext #btn4 .btn4:hover {
   color: white;
   border-color: #17A8A3;
   background-color: #17A8A3;
 }
 
-main #blackteacollection {
+#blackteacollection {
   padding-top: 50px;
 }
 
-main #blackteacollection .btcollectiontext {
+#blackteacollection .btcollectiontext {
   padding-top: 140px;
 }
 
-main #blackteacollection .btcollectiontext h5 {
+#blackteacollection .btcollectiontext h5 {
   font-size: 24px;
   font-weight: 550;
   margin-bottom: 35px;
 }
 
-main #blackteacollection .btcollectiontext .btps {
+#blackteacollection .btcollectiontext .btps {
   width: 560px;
   height: 155px;
   font-size: 12px;
   color: #787878;
 }
 
-main #blackteacollection .btcollectiontext .btps p {
+#blackteacollection .btcollectiontext .btps p {
   margin-top: -10px;
 }
 
-main #blackteacollection .btcollectiontext .btps2 {
+#blackteacollection .btcollectiontext .btps2 {
   width: 560px;
   height: 155px;
   font-size: 12px;
@@ -1013,111 +1114,107 @@ main #blackteacollection .btcollectiontext .btps2 {
   margin-top: -60px;
 }
 
-main #blackteacollection .btcollectiontext .btps2 p {
+#blackteacollection .btcollectiontext .btps2 p {
   margin-top: -10px;
 }
 
-main .search {
+.search {
   margin-top: 100px;
 }
 
-main .bannerimg img {
+.bannerimg img {
   margin-top: 100px;
-  width: 903px;
+  width: 100%;
   height: 663px;
 }
 
-main .blogtexts p {
-  width: 903px;
+.blogtexts p {
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 12px;
   color: #787878;
 }
 
-main .blogtexts p a {
+.blogtexts p a {
   text-decoration: underline;
   color: #17A8A3;
 }
 
-main .blogtexts h4 a {
+.blogtexts h4 a {
   font-size: 24px;
   color: black;
   font-weight: 600;
 }
 
-main .bannerimg2 img {
+.bannerimg2 img {
   margin-top: 20px;
-  width: 903px;
+  width: 100%;
   height: 663px;
 }
 
-main .rounded {
-  width: 280px;
+.rounded {
   height: 45px;
 }
 
-main hr {
-  width: 285px;
+hr {
   margin-top: 40px;
   border: 1px solid #787878;
 }
 
-main .blogcategories h5 {
+.blogcategories h5 {
   font-size: 20px;
   margin-bottom: 20px;
   margin-top: 30px;
   font-weight: 600;
 }
 
-main .blogcategories p {
+.blogcategories p {
   font-size: 12px;
   color: #787878;
 }
 
-main .blogrecentpost {
+.blogrecentpost {
   padding-top: 10px;
   padding-bottom: 30px;
 }
 
-main .blogrecentpost h5 {
+.blogrecentpost h5 {
   padding-bottom: 10px;
   font-size: 20px;
   font-weight: 600;
 }
 
-main .blogrecentpost .recentpart1 {
-  width: 270px;
+.blogrecentpost .recentpart1 {
   height: 85px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .blogrecentpost .recentpart1 img {
+.blogrecentpost .recentpart1 img {
   width: 85px;
   height: 85px;
   border-radius: 7%;
   margin-top: 10px;
 }
 
-main .blogrecentpost .recentpart1 .recentpart1texts {
+.blogrecentpost .recentpart1 .recentpart1texts {
   margin-left: 20px;
   width: 185px;
   height: 82px;
 }
 
-main .blogrecentpost .recentpart1 .recentpart1texts #naminos {
+.blogrecentpost .recentpart1 .recentpart1texts #naminos {
   margin-top: 13px;
   font-size: 12px;
 }
 
-main .blogrecentpost .recentpart1 .recentpart1texts #date {
+.blogrecentpost .recentpart1 .recentpart1texts #date {
   font-size: 12px;
   color: #787878;
 }
 
-main .blogrecentpost .recentpart2 {
+.blogrecentpost .recentpart2 {
   width: 270px;
   height: 85px;
   margin-top: 5px;
@@ -1126,30 +1223,30 @@ main .blogrecentpost .recentpart2 {
   display: flex;
 }
 
-main .blogrecentpost .recentpart2 img {
+.blogrecentpost .recentpart2 img {
   width: 85px;
   height: 85px;
   border-radius: 7%;
   margin-top: 35px;
 }
 
-main .blogrecentpost .recentpart2 .recentpart2texts {
+.blogrecentpost .recentpart2 .recentpart2texts {
   margin-left: 20px;
   width: 185px;
   height: 82px;
 }
 
-main .blogrecentpost .recentpart2 .recentpart2texts #naminos {
+.blogrecentpost .recentpart2 .recentpart2texts #naminos {
   margin-top: 39px;
   font-size: 12px;
 }
 
-main .blogrecentpost .recentpart2 .recentpart2texts #date {
+.blogrecentpost .recentpart2 .recentpart2texts #date {
   font-size: 12px;
   color: #787878;
 }
 
-main .blogrecentpost .recentpart3 {
+.blogrecentpost .recentpart3 {
   width: 270px;
   height: 85px;
   margin-top: 30px;
@@ -1158,37 +1255,37 @@ main .blogrecentpost .recentpart3 {
   display: flex;
 }
 
-main .blogrecentpost .recentpart3 img {
+.blogrecentpost .recentpart3 img {
   width: 85px;
   height: 85px;
   border-radius: 7%;
   margin-top: 35px;
 }
 
-main .blogrecentpost .recentpart3 .recentpart3texts {
+.blogrecentpost .recentpart3 .recentpart3texts {
   margin-left: 20px;
   width: 185px;
   height: 82px;
 }
 
-main .blogrecentpost .recentpart3 .recentpart3texts #naminos {
+.blogrecentpost .recentpart3 .recentpart3texts #naminos {
   margin-top: 37px;
   font-size: 12px;
 }
 
-main .blogrecentpost .recentpart3 .recentpart3texts #date {
+.blogrecentpost .recentpart3 .recentpart3texts #date {
   font-size: 12px;
   color: #787878;
 }
 
-main .bestsellers h5 {
+.bestsellers h5 {
   display: inline-block;
   padding-bottom: 10px;
   font-size: 20px;
   font-weight: 600;
 }
 
-main .bestsellers .view {
+.bestsellers .view {
   font-size: 12px;
   color: #17A8A3;
   margin-left: 100px;
@@ -1196,38 +1293,38 @@ main .bestsellers .view {
   display: inline-block;
 }
 
-main .bestsellers a {
+.bestsellers a {
   font-size: 12px;
   color: #17A8A3;
   margin-left: 20px;
 }
 
-main .bestsellers .seller1 {
+.bestsellers .seller1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .bestsellers .seller1 .sellerimg1 {
+.bestsellers .seller1 .sellerimg1 {
   width: 85px;
   height: 154px;
 }
 
-main .bestsellers .seller1 .sellerimg1 img {
+.bestsellers .seller1 .sellerimg1 img {
   width: 85px;
   height: 85px;
 }
 
-main .bestsellers .seller1 .sellertext1 {
+.bestsellers .seller1 .sellertext1 {
   width: 185px;
   height: 154px;
 }
 
-main .bestsellers .seller1 .sellertext1 p, main .bestsellers .seller1 .sellertext1 del, main .bestsellers .seller1 .sellertext1 span {
+.bestsellers .seller1 .sellertext1 p, .bestsellers .seller1 .sellertext1 del, .bestsellers .seller1 .sellertext1 span {
   font-size: 12px;
 }
 
-main .bestsellers .seller1 .sellertext1 .colors .color1 {
+.bestsellers .seller1 .sellertext1 .colors .color1 {
   display: inline-block;
   border: solid 1px #424242;
   border-radius: 50%;
@@ -1235,7 +1332,7 @@ main .bestsellers .seller1 .sellertext1 .colors .color1 {
   width: 19px;
 }
 
-main .bestsellers .seller1 .sellertext1 .colors .color1 .inlinecolor1 {
+.bestsellers .seller1 .sellertext1 .colors .color1 .inlinecolor1 {
   border: solid 1px #424242;
   border-radius: 50%;
   height: 15px;
@@ -1246,7 +1343,7 @@ main .bestsellers .seller1 .sellertext1 .colors .color1 .inlinecolor1 {
   margin-left: 1px;
 }
 
-main .bestsellers .seller1 .sellertext1 .colors .color2 {
+.bestsellers .seller1 .sellertext1 .colors .color2 {
   display: inline-block;
   border: solid 1px #c5c5c5;
   border-radius: 50%;
@@ -1255,7 +1352,7 @@ main .bestsellers .seller1 .sellertext1 .colors .color2 {
   width: 19px;
 }
 
-main .bestsellers .seller1 .sellertext1 .colors .color2 .inlinecolor2 {
+.bestsellers .seller1 .sellertext1 .colors .color2 .inlinecolor2 {
   border: solid 1px #424242;
   border-radius: 50%;
   height: 15px;
@@ -1266,32 +1363,32 @@ main .bestsellers .seller1 .sellertext1 .colors .color2 .inlinecolor2 {
   margin-left: 1px;
 }
 
-main .bestsellers .seller2 {
+.bestsellers .seller2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .bestsellers .seller2 .sellerimg2 {
+.bestsellers .seller2 .sellerimg2 {
   width: 85px;
   height: 154px;
 }
 
-main .bestsellers .seller2 .sellerimg2 img {
+.bestsellers .seller2 .sellerimg2 img {
   width: 85px;
   height: 85px;
 }
 
-main .bestsellers .seller2 .sellertext2 {
+.bestsellers .seller2 .sellertext2 {
   width: 185px;
   height: 154px;
 }
 
-main .bestsellers .seller2 .sellertext2 p, main .bestsellers .seller2 .sellertext2 del, main .bestsellers .seller2 .sellertext2 span {
+.bestsellers .seller2 .sellertext2 p, .bestsellers .seller2 .sellertext2 del, .bestsellers .seller2 .sellertext2 span {
   font-size: 12px;
 }
 
-main .bestsellers .seller2 .sellertext2 .colors .color1 {
+.bestsellers .seller2 .sellertext2 .colors .color1 {
   display: inline-block;
   border: solid 1px #424242;
   border-radius: 50%;
@@ -1299,7 +1396,7 @@ main .bestsellers .seller2 .sellertext2 .colors .color1 {
   width: 19px;
 }
 
-main .bestsellers .seller2 .sellertext2 .colors .color1 .inlinecolor1 {
+.bestsellers .seller2 .sellertext2 .colors .color1 .inlinecolor1 {
   border: solid 1px #424242;
   border-radius: 50%;
   height: 15px;
@@ -1310,7 +1407,7 @@ main .bestsellers .seller2 .sellertext2 .colors .color1 .inlinecolor1 {
   margin-left: 1px;
 }
 
-main .bestsellers .seller2 .sellertext2 .colors .color2 {
+.bestsellers .seller2 .sellertext2 .colors .color2 {
   display: inline-block;
   border: solid 1px #c5c5c5;
   border-radius: 50%;
@@ -1319,7 +1416,7 @@ main .bestsellers .seller2 .sellertext2 .colors .color2 {
   width: 19px;
 }
 
-main .bestsellers .seller2 .sellertext2 .colors .color2 .inlinecolor2 {
+.bestsellers .seller2 .sellertext2 .colors .color2 .inlinecolor2 {
   border: solid 1px #424242;
   border-radius: 50%;
   height: 15px;
@@ -1330,7 +1427,7 @@ main .bestsellers .seller2 .sellertext2 .colors .color2 .inlinecolor2 {
   margin-left: 1px;
 }
 
-main .bestsellers .seller2 .sellertext2 .colors .color3 {
+.bestsellers .seller2 .sellertext2 .colors .color3 {
   display: inline-block;
   border: solid 1px #c5c5c5;
   border-radius: 50%;
@@ -1339,7 +1436,7 @@ main .bestsellers .seller2 .sellertext2 .colors .color3 {
   width: 19px;
 }
 
-main .bestsellers .seller2 .sellertext2 .colors .color3 .inlinecolor3 {
+.bestsellers .seller2 .sellertext2 .colors .color3 .inlinecolor3 {
   border: solid 1px #424242;
   border-radius: 50%;
   height: 15px;
@@ -1350,56 +1447,204 @@ main .bestsellers .seller2 .sellertext2 .colors .color3 .inlinecolor3 {
   margin-left: 1px;
 }
 
-main .bestsellers .seller3 {
+.bestsellers .seller3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .bestsellers .seller3 .sellerimg3 {
+.bestsellers .seller3 .sellerimg3 {
   width: 85px;
   height: 154px;
 }
 
-main .bestsellers .seller3 .sellerimg3 img {
+.bestsellers .seller3 .sellerimg3 img {
   width: 85px;
   height: 85px;
 }
 
-main .bestsellers .seller3 .sellertext3 {
+.bestsellers .seller3 .sellertext3 {
   width: 185px;
   height: 154px;
 }
 
-main .bestsellers .seller3 .sellertext3 p, main .bestsellers .seller3 .sellertext3 del, main .bestsellers .seller3 .sellertext3 span {
+.bestsellers .seller3 .sellertext3 p, .bestsellers .seller3 .sellertext3 del, .bestsellers .seller3 .sellertext3 span {
   font-size: 12px;
 }
 
-main .herbaltea img {
-  width: 270px;
+.herbaltea img {
+  width: 100%;
   height: 390px;
 }
 
-main .customsms h4 {
+.customsms h4 {
   font-size: 20px;
   font-weight: 600;
   margin-top: 23px;
   margin-bottom: 23px;
 }
 
-main .customsms #custom1 {
-  width: 270px;
-  height: 96px;
+.customsms #custom1 {
   font-size: 12px;
   color: #787878;
   margin-top: 15px;
 }
 
-main .customsms #custom2 {
-  width: 270px;
-  height: 72px;
+.customsms #custom2 {
   font-size: 12px;
   color: #787878;
+}
+
+.themefaqs {
+  padding-left: 25px;
+}
+
+.themefaqs a {
+  color: #17A8A3;
+  text-decoration: underline;
+}
+
+.themefaqs h3 {
+  font-weight: 600;
+}
+
+.themefaqs p {
+  font-size: 12px;
+}
+
+#Faqs .needhelp {
+  height: 184px;
+  padding-top: 50px;
+  background-color: #FAFAFA;
+}
+
+#Faqs .needhelp h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
+#Faqs .needicons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid 2px black;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+#Faqs .needicons i {
+  padding: 30px 0 0 75px;
+  font-size: 30px;
+}
+
+#Faqs .questions {
+  padding-top: 50px;
+}
+
+#Faqs .questions .proslsquestions .slsquestion1 {
+  border: solid 2px black;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+#Faqs .questions .proslsquestions .slsquestion1 p {
+  font-size: 14px;
+  color: #1E1E1E;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#Faqs .questions .proslsquestions .slsquestion2 {
+  border: solid 1px black;
+  border-left: none;
+  border-right: none;
+}
+
+#Faqs .questions .proslsquestions .slsquestion2 p {
+  font-size: 14px;
+  color: #1E1E1E;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#Faqs .questions .themequestions {
+  padding-top: 70px;
+}
+
+#Faqs .questions .themequestions .themequestion1 {
+  border: solid 2px black;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+#Faqs .questions .themequestions .themequestion1 p {
+  font-size: 14px;
+  color: #1E1E1E;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#Faqs .questions .themequestions .themequestion2 {
+  border: solid 1px black;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+#Faqs .questions .themequestions .themequestion2 p {
+  font-size: 14px;
+  color: #1E1E1E;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#Faqs .questions .themequestions .themequestionend {
+  border: solid 1px black;
+  border-left: none;
+  border-right: none;
+}
+
+#Faqs .questions .themequestions .themequestionend p {
+  font-size: 14px;
+  color: #1E1E1E;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#Faqs .questions .support {
+  padding-left: 580px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#Faqs .questions .support p {
+  font-size: 12px;
+  color: #787878;
+}
+
+header .logoandtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .navbarm {
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  padding: 5px;
+}
+
+header .firsthead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 header img {
@@ -1426,8 +1671,8 @@ header #sale::after {
   width: 35px;
   height: 15px;
   background-color: #ff3300;
-  top: 3px;
-  left: 480px;
+  bottom: 47px;
+  left: 465px;
   border-radius: 12%;
 }
 
@@ -1440,8 +1685,8 @@ header #hot::after {
   width: 35px;
   height: 15px;
   background-color: #ffc400;
-  top: 3px;
-  right: 236px;
+  bottom: 47px;
+  right: 230px;
   border-radius: 12%;
 }
 
@@ -1454,13 +1699,13 @@ header #new::after {
   width: 35px;
   height: 15px;
   background-color: #01c070;
-  top: 3px;
-  right: 137px;
+  bottom: 47px;
+  right: 130px;
   border-radius: 12%;
 }
 
 header .menuright a {
-  padding: 23px;
+  padding: 21px;
   font-size: 17px;
 }
 
@@ -1478,30 +1723,51 @@ header .menuright a .fa-shopping-cart::after {
 }
 
 @media screen and (max-width: 1024px) {
+  .navbarm a {
+    display: none;
+  }
   .menuright {
     display: none;
   }
-  .logoandtext a {
+  .navbarm .logo a {
+    display: block;
+    padding-left: 420px;
+  }
+  .navbarm .logo a img {
+    width: 150px;
+  }
+  .MostPopular .popularimages .popular3 {
+    overflow-x: scroll;
+  }
+  #partvideo .leftpart br {
     display: none;
   }
-  #MostPopular .mainpopular h2 {
-    text-align: center;
+  #partvideo .leftpart h2 {
+    font-size: 35px;
   }
-  #MostPopular .mainpopular p, #MostPopular .mainpopular a {
-    text-align: center;
-    display: block;
+  #imageGallery .images .firstrow .withoutimg img {
+    display: none;
   }
-  #newprdcs h2, #newprdcs a {
-    display: block;
-    text-align: center;
+  #imageGallery .images .secondrow img {
+    display: none;
   }
-  #newprdcs .owl-theme a {
+  footer #iconsfooter .startoficon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .navbarm .logo a {
     display: block;
+    padding-left: 270px;
+  }
+  .navbarm .logo a img {
+    width: 150px;
   }
 }
 
 #iconsfooter {
-  margin-left: 45px;
+  padding-left: 45px;
   margin-bottom: 30px;
 }
 
@@ -1513,7 +1779,7 @@ header .menuright a .fa-shopping-cart::after {
 
 #iconsfooter .iconbox i {
   font-size: 50px;
-  margin-right: 20px;
+  padding-right: 20px;
 }
 
 #iconsfooter .iconbox .icontext h6 {
@@ -1530,7 +1796,6 @@ header .menuright a .fa-shopping-cart::after {
 
 #endoffooter {
   background-color: #f7f9f9;
-  width: 1263px;
   height: 363px;
 }
 
@@ -1542,14 +1807,14 @@ header .menuright a .fa-shopping-cart::after {
   width: 45%;
   margin-top: 30px;
   margin-bottom: 25px;
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 #endoffooter p {
   font-size: 11px;
   font-weight: 400;
   color: grey;
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 #endoffooter p a {

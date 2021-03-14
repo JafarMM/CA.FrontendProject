@@ -1,7 +1,20 @@
 main{
 
    
- 
+    .my-breadcrumb{
+      padding-left: 24px;
+      a{
+        color: black;
+      }
+      display: flex;
+      .breadcrumb-icon{
+        padding: 0 5px;
+      }
+       
+    }
+    .titleh3{
+      padding-left: 20px;
+    }
     .slide, .carousel-inner{
         height: 550px;
         margin-top: 15px;
@@ -61,20 +74,20 @@ main{
     }
      #MostPopular{
     margin-top: 100px;
+    h2{
+      font-weight: 400;
+      text-align: center;
+    }
     .mainpopular{
       margin-bottom: 35px;
-      h2{
-        font-weight: 400;
-        text-align: center;
-      }
+       display: flex;
+       justify-content: center;
       p{
         font-size: $little_font;
         font-weight: 400;
         color: grey;
         font-style: normal;
-        display: inline-block;
         text-align: center;
-        margin-left: 470px;
       }
       a{
          color: #17a8a3;
@@ -83,7 +96,8 @@ main{
          transition: all 0.3s ease;
          box-sizing: border-box;
          font-size: $little_font;
-         margin-left: 180px;
+        position: absolute;
+        right: 30px;
       }
     
     }
@@ -110,62 +124,107 @@ main{
             }
         }
 
+        .firstteas{
+          padding: 30px;
+           h3{
+            font-size: 20px;
+            font-weight: 550;
+           }
+           p{
+            font-size: $little_font;
+            color: $little_color;
+           }
+           .btn1{
+             border-radius: 0%;
+             color: black;
+             border-color: black;
+           }
+           .btn1:hover{
+             color: white;
+             background-color: #17A8A3;
+             border-color: #17A8A3;
+           }
+        }
+        .secondteas{
+          padding: 30px;
+          h3{
+            font-size: 20px;
+            font-weight: 550;
+          }
+          p{
+            font-size: $little_font;
+            color: $little_color;
+          }
+          .btn2{
+            border-radius: 0%;
+             color: black;
+             border-color: black;
+          }
+          .btn2:hover{
+            color: white;
+            background-color: #17A8A3;
+            border-color: #17A8A3;
+          }
+        }
+        .thirdteas{
+          padding: 30px;
+          h3{
+            font-size: 20px;
+            font-weight: 550;
+          }
+          p{
+            font-size: $little_font;
+            color: $little_color;
+          }
+          .btn3{
+            border-radius: 0%;
+             color: black;
+             border-color: black;
+          }
+          .btn3:hover{
+            color: white;
+            background-color: #17A8A3;
+            border-color: #17A8A3;
+          }
+        }
     }
     
     
-    .teas{
-    
-    margin-top: 40px;
-       .btn{
-         width: 200px;
-         height: 45px;
-         border-radius: 0;
-         border-color: rgb(80, 80, 80);
-         color: black;
-       }
-       .btn:hover{
-         color: white;
-         border-color:#5bc0de;
-       }
-    .firstteas{
-     margin-right: 50px;
-     h3,p, .btn{
-      margin-bottom: 40px;
-     }
-      p{
-          font-size: $little_font;
-          color: grey;
-      }
-    }
      
-    .secondteas{
-      h3,p, .btn{
-        margin-bottom: 40px;
-       }
-       p{
-        font-size: $little_font;
-        color: grey;
-    }
-    }
-    
-    .thirdteas{
-    margin-left: 50px;
-    h3,p, .btn{
-      margin-bottom: 40px;
-     }
-     p{
-        font-size: $little_font;
-        color: grey;
-    }
-      }
-      }
       
       
     }
     
         
       #newprdcs{
-    
+
+        .hearticon{
+          position: relative;
+          i{
+            position: absolute;
+            bottom: 200px;
+            left: 200px;
+          }
+        }
+        .mainnewproducts{
+          display: flex;
+          justify-content: center;
+          h2{
+            font-size: 24px;
+            font-weight: 550;
+          }
+          a{
+            color: #17a8a3;
+         text-decoration: underline;
+         background-color: transparent;
+         transition: all 0.3s ease;
+         box-sizing: border-box;
+         font-size: $little_font;
+        position: absolute;
+        right: 40px;
+          }
+        }
+
         .card{
           border-style: none;
         }
@@ -265,23 +324,7 @@ main{
         }
     
          margin-bottom: 50px;
-        h2{
-          text-align: center;
-          margin-bottom: 50px;
-          margin-top: 50px;
-          font-weight: bold;
-          display: inline-block;
-          margin-left: 430px;
-        }
-        a{
-          color: #17a8a3;
-          text-decoration: underline;
-          background-color: transparent;
-          transition: all 0.3s ease;
-          box-sizing: border-box;
-          font-size: $little_font;
-          margin-left: 345px;
-        }
+        
         p{
           font-size:$little_font;
           font-weight: 500px;
@@ -306,20 +349,18 @@ main{
         h2{
           font-weight: bold;
           font-size: 50px;
-          margin-right: 100px;
-          margin-left: 40px;
+          
           color: #17a8a3;
         }
         p{
           font-weight: 300;
           font-size: 15px;
           margin-top: 20px;
-          margin-left: 40px;
-          margin-right: 100px;
+           
         }
         .btn{
           margin-top: 20px;
-          margin-left: 40px;
+           
           border-radius: 0;
           width: 195px;
           height: 45px;
@@ -336,6 +377,7 @@ main{
         }
         .leftpart{
            margin-top: 108px;
+           padding-left: 30px;
         }
       }
     
@@ -352,15 +394,19 @@ main{
              max-width: 100%;
          }
         }
-        .btn{
-          width: 200px;
-          height: 45px;
-          border-radius: 0;
-          border-color: rgb(80, 80, 80);
-           color: black;
-           margin-left: 545px;
-           margin-top: 50px;
+        .btnimg{
+          text-align: center;
+          a{
+            width: 200px;
+            height: 45px;
+            border-radius: 0;
+            border-color: rgb(80, 80, 80);
+             color: black;
+               
+             margin-top: 50px;
+          }
         }
+         
         .btn:hover{
           color: white;
           border-color:#5bc0de;
@@ -370,22 +416,25 @@ main{
       #RecentPosts{
         margin-top: 100px;
         .mainrecent{
+          display: flex;
           margin-bottom: 35px;
+          justify-content: center;
           h2{
-            font-weight: 400;
+            font-weight:500;
             text-align: center;
-            display:inline-block;
-            margin-left: 540px;
+
           }
           
           a{
-             color: #17a8a3;
-             text-decoration: underline;
-             background-color: transparent;
-             transition: all 0.3s ease;
-             box-sizing: border-box;
-             font-size: $little_font;
-             margin-left: 250px;   
+            color: #17a8a3;
+            text-decoration: underline;
+            background-color: transparent;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+            font-size: $little_font;
+           position: absolute;
+           margin-top: 10px;
+           right: 40px;
           }
         
         }
@@ -394,62 +443,97 @@ main{
             display: flex;
           
            .recent1{
-                
+                 
                 img{
                     max-width: 100%;
                 }
+                .firstrecenteas{
+                  padding: 30px;
+                  h3{
+                    font-size: 20px; 
+                    font-weight: 500; 
+                  }
+                  p{
+                    font-size: $little_font;
+                    color: $little_color;
+                  }
+                  .btn11{
+                    border-radius: 0%;
+                    color: black;
+                    border-color: black;
+                  }
+                  .btn11:hover{
+                    color: white;
+                    background-color: #17A8A3;
+                    border-color: #17A8A3;
+                  }
+                }
+                
            }
            .recent2{
-                
+             
                img{
                    max-width: 100%;
                }
+               .secondrecentteas{
+                padding: 30px;
+                h3{
+                  font-size: 20px; 
+                  font-weight: 500; 
+                }
+                p{
+                  font-size: $little_font;
+                  color: $little_color;
+                }
+                .btn22{
+                  border-radius: 0%;
+                      color: black;
+                      border-color: black;
+                }
+                .btn22:hover{
+                  color: white;
+                  background-color: #17A8A3;
+                  border-color: #17A8A3;
+                }
+               }
+             
            }
            .recent3{
-               
+              
                img{
                    max-width: 100%;
                }
+               .thirdrecentteas{
+                padding: 30px;
+                h3{
+                  font-size: 20px; 
+                  font-weight: 500; 
+                }
+                p{
+                  font-size: $little_font;
+                  color: $little_color;
+                }
+                .btn33{
+                  border-radius: 0%;
+                      color: black;
+                      border-color: black;
+                }
+                .btn33:hover{
+                  color: white;
+                  background-color: #17A8A3;
+                  border-color: #17A8A3;
+                }
+              }
+             
            }
-   
+           
+           
+           }
+            
+
        }
         
-        .recenteas{
-        
-        margin-top: 40px;
-           .btn{
-             width: 150px;
-             height: 45px;
-             border-radius: 0;
-             border-color: rgb(80, 80, 80);
-             color: black;
-           }
-           .btn:hover{
-             color: white;
-             border-color:#5bc0de;
-           }
-        .firstrecenteas{
-         margin-right: 50px;
-         h3,p, .btn{
-          margin-bottom: 40px;
-         }
-          
-        }
          
-        .secondrecenteas{
-          h3,p, .btn{
-            margin-bottom: 40px;
-           }
-         
-        }
-        
-        .thirdrecenteas{
-        margin-left: 50px;
-        h3,p, .btn{
-          margin-bottom: 40px;
-         }
-          }
-          }
           
           
         }
@@ -457,15 +541,15 @@ main{
         #imgsection{
             margin-bottom: 50px;
             .imgmain{
-                 height: 700px;
-                 max-width: 100%;
-                background-image: url('../images/igor-miske-CwVE4xCAA8Y-unsplash.jpg');
+                //  height: 700px;
+                background-image: url('../imagesgallery/bg_newsletter.jpg');
+                // background-size:100% ;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
+                background-position: center;
+                min-height: 780px;
                  .texts{
-
-                    padding-top: 130px;
-                    padding-left: 600px;
+                    padding-top: 150px;
                     h1{
                         color: white;
                         font-weight: 610;
@@ -480,7 +564,7 @@ main{
                .emailinput{
                    padding-top: 36px;
                 .form-control{
-                    width: 480px;
+                    
                     background: transparent;
                     fill: none;
                     border-top: 0px;
@@ -526,7 +610,7 @@ main{
             }
         }
 
-/* styles unrelated to zoom */
+ 
 
 .shortcuttext{
   width: 1263px;
@@ -550,13 +634,13 @@ main{
         * { border:0; margin:0; padding:0; }
         p { position:absolute; top:3px; right:28px; color:#555; font:bold 13px/1 sans-serif;}
     
-        /* these styles are for the demo, but are not required for the plugin */
+         
         .zoom {
             display:inline-block;
             position: relative;
         }
     
-        /* magnifying glass icon */
+         
         .zoom:after {
             content:'';
             display:block; 
@@ -980,14 +1064,13 @@ main{
         .bannerimg{
           img{
             margin-top: 100px;
-            width: 903px;
+            width: 100%;
             height: 663px;
           }
           
         }
         .blogtexts{
           p{
-            width: 903px;
             padding-top: 15px;
             padding-bottom: 15px;
             font-size: $little_font;
@@ -1011,17 +1094,15 @@ main{
         .bannerimg2{
           img{
             margin-top: 20px;
-            width: 903px;
+            width: 100%;
               height: 663px;
           }
            
         }
         .rounded{
-           width: 280px;
             height: 45px;
         }
         hr{
-          width: 285px;
           margin-top: 40px;
           border: 1px solid $little_color;
         }
@@ -1048,7 +1129,6 @@ main{
           padding-top: 10px;
           padding-bottom: 30px;
           .recentpart1{
-            width: 270px;
             height: 85px;
             display: flex;
             img{
@@ -1302,7 +1382,7 @@ main{
         }
         .herbaltea{
           img{
-            width: 270px;
+            width: 100%;
             height: 390px;
           }
         }
@@ -1315,22 +1395,136 @@ main{
             margin-bottom: 23px;
           }
           #custom1{
-             width: 270px;
-             height: 96px;
               font-size: $little_font;
               color: $little_color;
               margin-top: 15px;
              
           }
           #custom2{
-             width: 270px;
-             height: 72px;
+  
               font-size: $little_font;
               color: $little_color;
              
           }
-        }  
-} 
+        }
+
+        .themefaqs{
+          a{
+            color: #17A8A3;
+            text-decoration: underline;
+          }
+          padding-left: 25px;
+          h3{
+            font-weight:600;
+          }
+          p{
+            font-size: $little_font;
+          }
+        }
+
+        #Faqs{
+          .needhelp{
+            height: 184px;
+            padding-top: 50px; 
+            background-color: #FAFAFA;
+            h4{
+              text-align: center;
+              font-weight: 600;
+            }
+            
+          }
+           .needicons{
+             
+             display: flex;
+             border: solid 2px black;
+             border-bottom: none;
+             border-left: none;
+             border-right: none;
+               
+             i{
+               padding: 30px 0 0 75px;
+              font-size: 30px;
+             }
+           }
+           .questions{
+             padding-top: 50px;
+             .proslsquestions{
+              .slsquestion1{
+                border: solid 2px black;
+                border-right: none;
+                border-left:none;
+                border-bottom: none;
+                p{
+                  font-size: 14px;
+                  color: #1E1E1E;
+                  padding-top: 20px;
+                  padding-bottom: 10px;
+                }
+              }
+              .slsquestion2{
+                border: solid 1px black;
+                border-left: none;
+                border-right: none;
+                p{
+                  font-size: 14px;
+                  color: #1E1E1E;
+                  padding-top: 20px;
+                  padding-bottom: 10px;
+                }
+              }
+             }
+            .themequestions{
+              padding-top: 70px;
+              .themequestion1{
+                border: solid 2px black;
+                border-right: none;
+                border-left:none;
+                border-bottom: none;
+                p{
+                  font-size: 14px;
+                  color: #1E1E1E;
+                  padding-top: 20px;
+                  padding-bottom: 10px;
+                }
+              }
+              .themequestion2{
+                border: solid 1px black;
+                border-left: none;
+                border-right: none;
+                border-bottom: none;
+                p{
+                  font-size: 14px;
+                  color: #1E1E1E;
+                  padding-top: 20px;
+                  padding-bottom: 10px;
+                }
+              }
+              .themequestionend{
+                border: solid 1px black;
+                border-left: none;
+                border-right: none;
+                p{
+                  font-size: 14px;
+                  color: #1E1E1E;
+                  padding-top: 20px;
+                  padding-bottom: 10px;
+                }
+              }
+                
+            }
+            .support{
+              padding-left: 580px;
+              padding-top: 40px;
+              padding-bottom: 40px;
+              p{
+                font-size: $little_font;
+                color: $little_color;
+              }
+            }
+           }
+           
+        }
+
  
 
 
