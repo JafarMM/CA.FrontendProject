@@ -210,7 +210,7 @@ main{
             left: 200px;
           }
         }
-        .mainnewproducts{
+        .mainnewproducts{ 
           display: flex;
           justify-content: center;
           h2{
@@ -224,11 +224,13 @@ main{
          transition: all 0.3s ease;
          box-sizing: border-box;
          font-size: $little_font;
-        position: absolute;
-        right: 40px;
+          position: absolute;
+          right: 40px;
           }
-        }
 
+
+        }
+      }
         .card{
           border-style: none;
         }
@@ -297,8 +299,100 @@ main{
           right: 162px;
           border-radius: 0;
         }
-    
-    
+        
+        .item:hover{
+          .forthcard{
+            a{
+              img{
+                display: none;
+              }
+            }
+            .hoverimg4{
+              img{
+                display: block;
+              }
+            }
+          }
+        }
+        .forthcard{
+          .hoverimg4{
+            img{
+              display: none;
+            }
+          }
+        }
+
+        .item:hover{
+          .thirdcard{
+            a{
+              img{
+                display: none;
+              }
+            }
+            .hoverimg3{
+              img{
+                display: block;
+              }
+            }
+          }
+        }
+        .thirdcard{
+          .hoverimg3{
+            img{
+              display: none;
+            }
+          }
+        }
+
+        .item:hover{
+          .secondcard{
+            a{
+              img{
+                display: none;
+              }
+            }
+            .hoverimg2{
+              img{
+                display: block;
+              }
+            }
+          }
+        }
+        .secondcard{
+          .hoverimg2{
+            img{
+              display: none;
+            }
+          }
+        }
+
+        .item:hover{
+          .firstcard{
+            a{
+              img{
+                display: none;
+              }
+            }
+            .hoverimg1{
+              img{
+                display: block;
+              }
+            }
+          }
+        }
+        .firstcard{
+          .hoverimg1{
+            img{
+              display: none;
+            }
+          }
+        }
+
+        
+
+         
+         
+
         .forthcard::after{
           content: '-45%';
           position: absolute;
@@ -382,6 +476,14 @@ main{
            margin-top: 108px;
            padding-left: 30px;
         }
+         .rightpart{
+            font-size: 130px;
+             i{
+               position: absolute;
+               bottom: 160px;
+                right: 250px;
+             } 
+         }
       }
     
       #imageGallery{
@@ -543,8 +645,8 @@ main{
          
           
           
-        }
         
+    
         #imgsection{
             margin-bottom: 50px;
             .imgmain{
@@ -1069,6 +1171,21 @@ main{
             }
            }
            
+        }
+
+        #feedbackcollection{
+          .feedbacktext{
+             padding-top: 150px;
+            h4{
+              font-size: 24px;
+              font-weight: 550;
+              
+            }
+            p{
+              font-size: 13px;
+              color: $little_color;
+            }
+          }
         }
 
         //  blogstyleisstart

@@ -56,8 +56,6 @@ let contactForm = document.querySelector("#contact-form");
 let emailInp = document.querySelector("input[type='email']");
 let textarea = document.querySelector("textarea");
 
-console.log(checkBox);
-
 let errorMsg = document.createElement("p");
 let secondErrorMsg = document.createElement("p");
 

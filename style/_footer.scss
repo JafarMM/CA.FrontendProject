@@ -65,11 +65,15 @@
             }
         }
      
-      
+        a{  
+            text-decoration-color: $little_color;
+            color: $little_color;
+        }
       
 }
 
 #lastpart{
+     
     margin-bottom: 40px;
     p{
         font-size: $little_font;

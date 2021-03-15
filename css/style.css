@@ -1,3 +1,7 @@
+main {
+  margin-bottom: 50px;
+}
+
 main .my-breadcrumb {
   padding-left: 23px;
   padding-top: 10px;
@@ -215,10 +219,6 @@ main #MostPopular .popularimages .thirdteas .btn3:hover {
   border-color: #17a8a3;
 }
 
-main #newprdcs {
-  margin-bottom: 50px;
-}
-
 main #newprdcs .hearticon {
   position: relative;
 }
@@ -256,11 +256,11 @@ main #newprdcs .mainnewproducts a {
   right: 40px;
 }
 
-main #newprdcs .card {
+main .card {
   border-style: none;
 }
 
-main #newprdcs .owl-prev {
+main .owl-prev {
   width: 25px;
   height: 100px;
   position: absolute;
@@ -270,7 +270,7 @@ main #newprdcs .owl-prev {
   border: 0px solid black;
 }
 
-main #newprdcs .owl-next {
+main .owl-next {
   width: 25px;
   height: 100px;
   position: absolute;
@@ -280,7 +280,7 @@ main #newprdcs .owl-next {
   border: 0px solid black;
 }
 
-main #newprdcs .secondcard::after {
+main .secondcard::after {
   content: '-71%';
   position: absolute;
   font-size: 12px;
@@ -294,7 +294,7 @@ main #newprdcs .secondcard::after {
   border-radius: 0;
 }
 
-main #newprdcs .secondcard::before {
+main .secondcard::before {
   content: 'Bundle';
   position: absolute;
   font-size: 12px;
@@ -308,7 +308,7 @@ main #newprdcs .secondcard::before {
   border-radius: 0;
 }
 
-main #newprdcs .thirdcard::after {
+main .thirdcard::after {
   content: '-45%';
   position: absolute;
   font-size: 12px;
@@ -322,7 +322,55 @@ main #newprdcs .thirdcard::after {
   border-radius: 0;
 }
 
-main #newprdcs .forthcard::after {
+main .item:hover .forthcard a img {
+  display: none;
+}
+
+main .item:hover .forthcard .hoverimg4 img {
+  display: block;
+}
+
+main .forthcard .hoverimg4 img {
+  display: none;
+}
+
+main .item:hover .thirdcard a img {
+  display: none;
+}
+
+main .item:hover .thirdcard .hoverimg3 img {
+  display: block;
+}
+
+main .thirdcard .hoverimg3 img {
+  display: none;
+}
+
+main .item:hover .secondcard a img {
+  display: none;
+}
+
+main .item:hover .secondcard .hoverimg2 img {
+  display: block;
+}
+
+main .secondcard .hoverimg2 img {
+  display: none;
+}
+
+main .item:hover .firstcard a img {
+  display: none;
+}
+
+main .item:hover .firstcard .hoverimg1 img {
+  display: block;
+}
+
+main .firstcard .hoverimg1 img {
+  display: none;
+}
+
+main .forthcard::after {
   content: '-45%';
   position: absolute;
   font-size: 12px;
@@ -336,7 +384,7 @@ main #newprdcs .forthcard::after {
   border-radius: 0;
 }
 
-main #newprdcs .fifthcard::after {
+main .fifthcard::after {
   content: '-47%';
   position: absolute;
   font-size: 12px;
@@ -350,42 +398,42 @@ main #newprdcs .fifthcard::after {
   border-radius: 0;
 }
 
-main #newprdcs p {
+main p {
   font-size: 12px;
   font-weight: 500px;
 }
 
-main #newprdcs span {
+main span {
   font-size: 15px;
   font-weight: 150px;
 }
 
-main #newprdcs #from {
+main #from {
   font-size: 12px;
 }
 
-main #newprdcs #number20 {
+main #number20 {
   color: #e95144;
 }
 
-main #partvideo {
+#partvideo {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-main #partvideo h2 {
+#partvideo h2 {
   font-weight: bold;
   font-size: 50px;
   color: #17a8a3;
 }
 
-main #partvideo p {
+#partvideo p {
   font-weight: 300;
   font-size: 15px;
   margin-top: 20px;
 }
 
-main #partvideo .btn {
+#partvideo .btn {
   margin-top: 20px;
   border-radius: 0;
   width: 195px;
@@ -394,49 +442,59 @@ main #partvideo .btn {
   background-color: #17a8a3;
 }
 
-main #partvideo .btn:hover {
+#partvideo .btn:hover {
   color: white;
   border-color: #0c865e;
   background-color: #167757e3;
 }
 
-main #partvideo img {
+#partvideo img {
   max-width: 100%;
 }
 
-main #partvideo .leftpart {
+#partvideo .leftpart {
   margin-top: 108px;
   padding-left: 30px;
 }
 
-main #imageGallery {
+#partvideo .rightpart {
+  font-size: 130px;
+}
+
+#partvideo .rightpart i {
+  position: absolute;
+  bottom: 160px;
+  right: 250px;
+}
+
+#imageGallery {
   margin-top: 80px;
 }
 
-main #imageGallery h2, main #imageGallery p {
+#imageGallery h2, #imageGallery p {
   text-align: center;
 }
 
-main #imageGallery p {
+#imageGallery p {
   font-size: 12px;
   color: #787878;
 }
 
-main #imageGallery .images .firstrow, main #imageGallery .images .secondrow {
+#imageGallery .images .firstrow, #imageGallery .images .secondrow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main #imageGallery .images img {
+#imageGallery .images img {
   max-width: 100%;
 }
 
-main #imageGallery .btnimg {
+#imageGallery .btnimg {
   text-align: center;
 }
 
-main #imageGallery .btnimg a {
+#imageGallery .btnimg a {
   width: 200px;
   height: 45px;
   border-radius: 0;
@@ -445,16 +503,16 @@ main #imageGallery .btnimg a {
   margin-top: 50px;
 }
 
-main #imageGallery .btn:hover {
+#imageGallery .btn:hover {
   color: white;
   border-color: #5bc0de;
 }
 
-main #RecentPosts {
+#RecentPosts {
   margin-top: 100px;
 }
 
-main #RecentPosts .mainrecent {
+#RecentPosts .mainrecent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -464,12 +522,12 @@ main #RecentPosts .mainrecent {
           justify-content: center;
 }
 
-main #RecentPosts .mainrecent h2 {
+#RecentPosts .mainrecent h2 {
   font-weight: 500;
   text-align: center;
 }
 
-main #RecentPosts .mainrecent a {
+#RecentPosts .mainrecent a {
   color: #17a8a3;
   text-decoration: underline;
   background-color: transparent;
@@ -483,97 +541,97 @@ main #RecentPosts .mainrecent a {
   right: 40px;
 }
 
-main #RecentPosts .recentimages {
+#RecentPosts .recentimages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main #RecentPosts .recentimages .recent1 img {
+#RecentPosts .recentimages .recent1 img {
   max-width: 100%;
 }
 
-main #RecentPosts .recentimages .recent1 .firstrecenteas {
+#RecentPosts .recentimages .recent1 .firstrecenteas {
   padding: 30px;
 }
 
-main #RecentPosts .recentimages .recent1 .firstrecenteas h3 {
+#RecentPosts .recentimages .recent1 .firstrecenteas h3 {
   font-size: 20px;
   font-weight: 500;
 }
 
-main #RecentPosts .recentimages .recent1 .firstrecenteas p {
+#RecentPosts .recentimages .recent1 .firstrecenteas p {
   font-size: 12px;
   color: #787878;
 }
 
-main #RecentPosts .recentimages .recent1 .firstrecenteas .btn11 {
+#RecentPosts .recentimages .recent1 .firstrecenteas .btn11 {
   border-radius: 0%;
   color: black;
   border-color: black;
 }
 
-main #RecentPosts .recentimages .recent1 .firstrecenteas .btn11:hover {
+#RecentPosts .recentimages .recent1 .firstrecenteas .btn11:hover {
   color: white;
   background-color: #17a8a3;
   border-color: #17a8a3;
 }
 
-main #RecentPosts .recentimages .recent2 img {
+#RecentPosts .recentimages .recent2 img {
   max-width: 100%;
 }
 
-main #RecentPosts .recentimages .recent2 .secondrecentteas {
+#RecentPosts .recentimages .recent2 .secondrecentteas {
   padding: 30px;
 }
 
-main #RecentPosts .recentimages .recent2 .secondrecentteas h3 {
+#RecentPosts .recentimages .recent2 .secondrecentteas h3 {
   font-size: 20px;
   font-weight: 500;
 }
 
-main #RecentPosts .recentimages .recent2 .secondrecentteas p {
+#RecentPosts .recentimages .recent2 .secondrecentteas p {
   font-size: 12px;
   color: #787878;
 }
 
-main #RecentPosts .recentimages .recent2 .secondrecentteas .btn22 {
+#RecentPosts .recentimages .recent2 .secondrecentteas .btn22 {
   border-radius: 0%;
   color: black;
   border-color: black;
 }
 
-main #RecentPosts .recentimages .recent2 .secondrecentteas .btn22:hover {
+#RecentPosts .recentimages .recent2 .secondrecentteas .btn22:hover {
   color: white;
   background-color: #17a8a3;
   border-color: #17a8a3;
 }
 
-main #RecentPosts .recentimages .recent3 img {
+#RecentPosts .recentimages .recent3 img {
   max-width: 100%;
 }
 
-main #RecentPosts .recentimages .recent3 .thirdrecentteas {
+#RecentPosts .recentimages .recent3 .thirdrecentteas {
   padding: 30px;
 }
 
-main #RecentPosts .recentimages .recent3 .thirdrecentteas h3 {
+#RecentPosts .recentimages .recent3 .thirdrecentteas h3 {
   font-size: 20px;
   font-weight: 500;
 }
 
-main #RecentPosts .recentimages .recent3 .thirdrecentteas p {
+#RecentPosts .recentimages .recent3 .thirdrecentteas p {
   font-size: 12px;
   color: #787878;
 }
 
-main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33 {
+#RecentPosts .recentimages .recent3 .thirdrecentteas .btn33 {
   border-radius: 0%;
   color: black;
   border-color: black;
 }
 
-main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33:hover {
+#RecentPosts .recentimages .recent3 .thirdrecentteas .btn33:hover {
   color: white;
   background-color: #17a8a3;
   border-color: #17a8a3;
@@ -1135,6 +1193,20 @@ main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33:hover {
 
 #blackteacollection .btcollectiontext .btps2 p {
   margin-top: -10px;
+}
+
+#feedbackcollection .feedbacktext {
+  padding-top: 150px;
+}
+
+#feedbackcollection .feedbacktext h4 {
+  font-size: 24px;
+  font-weight: 550;
+}
+
+#feedbackcollection .feedbacktext p {
+  font-size: 13px;
+  color: #787878;
 }
 
 .search {
@@ -2102,6 +2174,12 @@ header .menuright a .fa-shopping-cart::after {
   font-size: 17px;
   font-weight: 500;
   color: #000;
+}
+
+#endoffooter a {
+  -webkit-text-decoration-color: #787878;
+          text-decoration-color: #787878;
+  color: #787878;
 }
 
 #lastpart {
