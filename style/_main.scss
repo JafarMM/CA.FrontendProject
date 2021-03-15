@@ -1614,6 +1614,49 @@ main{
           }
         }
          
-      
+      #login{
+        h3{
+          padding-top: 20px;
+          padding-bottom: 60px;
+        }
+        .resetpassword{
+          h5{
+             padding-top: 40px;
+             padding-bottom: 20px;
+             font-weight: 600;
+          }
+          p{
+            font-size: 13px;
+            color: $little_color;
+          }
+          #label{
+            font-size: 14px;
+          }
+          #emailinput{
+            width: 500px;
+          }
+          .submit{
+            padding-top: 20px;
+            #submitinput{
+              background-color: #17A8A3;
+              color: white;
+              width: 500px;
+              border-radius: 0%;
+            }
+             
+          }
+          .cancel{
+            padding-top: 20px;
+            a{
+              background-color: #E13F3F;
+              color: white;
+              width: 500px;
+              border-radius: 0%;
+               
+            }
+          }
+           
+        }
+      }
 
 

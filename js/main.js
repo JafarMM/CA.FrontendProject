@@ -36,9 +36,7 @@ $(document).ready(function(){
  
  
 let navbar = document.querySelector(".navbarm");
-// let firstBadge = document.querySelector(".first-badge");
-// let secondBadge = document.querySelector(".second-badge");
-// let lastBadge = document.querySelector(".last-list-item");
+ 
 
 
 window.addEventListener("scroll", function () {
@@ -47,13 +45,9 @@ window.addEventListener("scroll", function () {
       navbar.style.position = "fixed";
       navbar.style.width = "100%";
       navbar.style.top = "0";
-    //   firstBadge.classList.add("first-badge-1");
-    //   secondBadge.classList.add("second-badge-1");
-    //   lastBadge.classList.add("last-list-item-1");
+     
     } else {
       navbar.style.position = "";
-    //   firstBadge.classList.remove("first-badge-1");
-    //   secondBadge.classList.remove("second-badge-1");
-    //   lastBadge.classList.remove("last-list-item-1");
+    
     }
   });

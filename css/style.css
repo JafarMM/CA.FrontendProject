@@ -1719,6 +1719,52 @@ hr {
   color: #787878;
 }
 
+#login h3 {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+#login .resetpassword h5 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+#login .resetpassword p {
+  font-size: 13px;
+  color: #787878;
+}
+
+#login .resetpassword #label {
+  font-size: 14px;
+}
+
+#login .resetpassword #emailinput {
+  width: 500px;
+}
+
+#login .resetpassword .submit {
+  padding-top: 20px;
+}
+
+#login .resetpassword .submit #submitinput {
+  background-color: #17A8A3;
+  color: white;
+  width: 500px;
+  border-radius: 0%;
+}
+
+#login .resetpassword .cancel {
+  padding-top: 20px;
+}
+
+#login .resetpassword .cancel a {
+  background-color: #E13F3F;
+  color: white;
+  width: 500px;
+  border-radius: 0%;
+}
+
 header .logoandtext {
   display: -webkit-box;
   display: -ms-flexbox;
