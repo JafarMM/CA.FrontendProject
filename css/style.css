@@ -159,8 +159,8 @@ main #MostPopular .popularimages .firstteas .btn1 {
 
 main #MostPopular .popularimages .firstteas .btn1:hover {
   color: white;
-  background-color: #17A8A3;
-  border-color: #17A8A3;
+  background-color: #17a8a3;
+  border-color: #17a8a3;
 }
 
 main #MostPopular .popularimages .secondteas {
@@ -185,8 +185,8 @@ main #MostPopular .popularimages .secondteas .btn2 {
 
 main #MostPopular .popularimages .secondteas .btn2:hover {
   color: white;
-  background-color: #17A8A3;
-  border-color: #17A8A3;
+  background-color: #17a8a3;
+  border-color: #17a8a3;
 }
 
 main #MostPopular .popularimages .thirdteas {
@@ -211,8 +211,8 @@ main #MostPopular .popularimages .thirdteas .btn3 {
 
 main #MostPopular .popularimages .thirdteas .btn3:hover {
   color: white;
-  background-color: #17A8A3;
-  border-color: #17A8A3;
+  background-color: #17a8a3;
+  border-color: #17a8a3;
 }
 
 main #newprdcs {
@@ -515,8 +515,8 @@ main #RecentPosts .recentimages .recent1 .firstrecenteas .btn11 {
 
 main #RecentPosts .recentimages .recent1 .firstrecenteas .btn11:hover {
   color: white;
-  background-color: #17A8A3;
-  border-color: #17A8A3;
+  background-color: #17a8a3;
+  border-color: #17a8a3;
 }
 
 main #RecentPosts .recentimages .recent2 img {
@@ -545,8 +545,8 @@ main #RecentPosts .recentimages .recent2 .secondrecentteas .btn22 {
 
 main #RecentPosts .recentimages .recent2 .secondrecentteas .btn22:hover {
   color: white;
-  background-color: #17A8A3;
-  border-color: #17A8A3;
+  background-color: #17a8a3;
+  border-color: #17a8a3;
 }
 
 main #RecentPosts .recentimages .recent3 img {
@@ -575,8 +575,8 @@ main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33 {
 
 main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33:hover {
   color: white;
-  background-color: #17A8A3;
-  border-color: #17A8A3;
+  background-color: #17a8a3;
+  border-color: #17a8a3;
 }
 
 #imgsection {
@@ -696,6 +696,10 @@ main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33:hover {
   position: relative;
 }
 
+#productpage .zoompicture .zoom .second-zoom-img {
+  display: none;
+}
+
 #productpage .zoompicture .zoom:after {
   content: '';
   display: block;
@@ -729,25 +733,30 @@ main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33:hover {
 }
 
 #productpage .img1 {
-  border: solid 1px black;
   width: 100px;
   height: 98px;
+  cursor: pointer;
 }
 
 #productpage .img1 img {
-  width: 96px;
+  width: 100%;
   height: 96px;
 }
 
 #productpage .img2 {
-  border: solid 1px black;
+  margin-top: 20px;
   width: 100px;
   height: 98px;
+  cursor: pointer;
 }
 
 #productpage .img2 img {
-  width: 96px;
+  width: 100%;
   height: 96px;
+}
+
+#productpage .active {
+  border: solid 1px black;
 }
 
 #productpage .img3 {
@@ -893,6 +902,7 @@ main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33:hover {
 }
 
 #productpage .productright .productbtn .chekbutton .btn3 {
+  pointer-events: none;
   margin-top: 20px;
   border-radius: 0;
   width: 505px;
@@ -1086,8 +1096,8 @@ main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33:hover {
 
 #easteacollection .collectiontext #btn4 .btn4:hover {
   color: white;
-  border-color: #17A8A3;
-  background-color: #17A8A3;
+  border-color: #17a8a3;
+  background-color: #17a8a3;
 }
 
 #blackteacollection {
@@ -1146,7 +1156,7 @@ main #RecentPosts .recentimages .recent3 .thirdrecentteas .btn33:hover {
 
 .blogtexts p a {
   text-decoration: underline;
-  color: #17A8A3;
+  color: #17a8a3;
 }
 
 .blogtexts h4 a {
@@ -1296,7 +1306,7 @@ hr {
 
 .bestsellers .view {
   font-size: 12px;
-  color: #17A8A3;
+  color: #17a8a3;
   margin-left: 100px;
   text-decoration: underline;
   display: inline-block;
@@ -1304,7 +1314,7 @@ hr {
 
 .bestsellers a {
   font-size: 12px;
-  color: #17A8A3;
+  color: #17a8a3;
   margin-left: 20px;
 }
 
@@ -1509,7 +1519,7 @@ hr {
 }
 
 .themefaqs a {
-  color: #17A8A3;
+  color: #17a8a3;
   text-decoration: underline;
 }
 
@@ -1640,7 +1650,7 @@ hr {
 }
 
 #contactus #contactmain a {
-  color: #17A8A3;
+  color: #17a8a3;
   text-decoration: underline;
 }
 
@@ -1665,9 +1675,9 @@ hr {
 
 #contactus .formmain .btndiv .btnform {
   border-radius: 0%;
-  background-color: #17A8A3;
+  background-color: #17a8a3;
   color: white;
-  border-color: #17A8A3;
+  border-color: #17a8a3;
   width: 200px;
 }
 
@@ -1748,7 +1758,7 @@ hr {
 }
 
 #login .resetpassword .submit #submitinput {
-  background-color: #17A8A3;
+  background-color: #17a8a3;
   color: white;
   width: 500px;
   border-radius: 0%;
@@ -1762,6 +1772,32 @@ hr {
   background-color: #E13F3F;
   color: white;
   width: 500px;
+  border-radius: 0%;
+}
+
+#login .newcustomer {
+  padding-bottom: 150px;
+  background-color: #FAFAFA;
+}
+
+#login .newcustomer input {
+  border-radius: 0;
+  padding-top: 10px;
+}
+
+#login .newcustomer label {
+  font-size: 14px;
+  padding-top: 8px;
+}
+
+#login .newcustomer .createaccount {
+  padding-top: 20px;
+}
+
+#login .newcustomer .createaccount input {
+  width: 200px;
+  background-color: #17a8a3;
+  color: white;
   border-radius: 0%;
 }
 

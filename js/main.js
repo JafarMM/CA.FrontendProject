@@ -51,3 +51,42 @@ window.addEventListener("scroll", function () {
     
     }
   });
+
+let contactForm = document.querySelector("#contact-form");
+let emailInp = document.querySelector("input[type='email']");
+let textarea = document.querySelector("textarea");
+
+console.log(checkBox);
+
+let errorMsg = document.createElement("p");
+let secondErrorMsg = document.createElement("p");
+
+errorMsg.style.color = "#E13F3F";
+secondErrorMsg.style.color = "#E13F3F";
+errorMsg.style.marginTop = "10px";
+secondErrorMsg.style.marginTop = "10px";
+
+
+
+contactForm.addEventListener("submit",function(e){
+  e.preventDefault();
+
+  if(emailInp.value === ""){
+    emailInp.style.borderColor = "#E13F3F";
+    errorMsg.innerText = "You must write email address";
+    emailInp.after(errorMsg);
+    emailInp.addEventListener("keyup",function(){
+      emailInp.style.borderColor = "";
+      errorMsg.remove();
+    })
+  }
+  if(textarea.value === ""){
+    textarea.style.borderColor = "#E13F3F";
+    secondErrorMsg.innerText = "You must write email address";
+    textarea.after(secondErrorMsg);
+    textarea.addEventListener("keyup",function(){
+      textarea.style.borderColor = "";
+      secondErrorMsg.remove();
+    })
+  }
+})

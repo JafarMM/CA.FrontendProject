@@ -28,35 +28,31 @@
 
     <header>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-8">1</div>
-                <div class="col-3">
-                    <span>
-                        1
-                    </span>
-                </div>
-                <div class="col-1">
-                    <span>
-                        1
-                    </span>
-                    <span>
-                        2
-                    </span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-8">
-                    <a href="index.html"> <img src="./images/hl-tea-and-coffee-logo.png" alt=""> </a>
 
-                    <a href="#">TEAS</a>
-                    <a href="#">TEAWARE</a>
-                    <a id="sale" href="#">LOOSE LEAF TEA</a>
-                    <a id="hot" href="#">TEA BAGS</a>
-                    <a id="new" href="#">LOOKBOOK</a>
-                    <span>|</span>
-                    <a href="#">FAQS</a>
+            <div class="firsthead">
+                <p>30-DAY MONEY BACK GUARANTEE</p>
+
+            </div>
+
+
+            <div class="row navbarm">
+                <div class="col-md-8">
+                    <div class="logoandtext">
+                        <div class="logo">
+                            <a href="index.html"> <img src="./images/hl-tea-and-coffee-logo.png" alt=""> </a>
+                        </div>
+
+                        <a href="#">TEAS</a>
+                        <a href="#">TEAWARE</a>
+                        <a id="sale" href="#">LOOSE LEAF TEA</a>
+                        <a id="hot" href="#">TEA BAGS</a>
+                        <a id="new" href="#">LOOKBOOK</a>
+                        <span>|</span>
+                        <a href="#">FAQS</a>
+                    </div>
+
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
 
 
                     <div class="menuright">
@@ -69,17 +65,19 @@
                             <i class="fas fa-search"></i>
                         </a>
                         <a href="#">
-                            <i class="far fa-user"></i>
+                            <i id="user" class="far fa-user"></i>
                         </a>
                         <a href="#">
                             <i class="far fa-heart"></i>
                         </a>
                         <a href="#">
-                            <i class="fas fa-shopping-cart"></i>
+                            <i id="shopping" class="fas fa-shopping-cart"></i>
                         </a>
                     </div>
                 </div>
             </div>
+
+
         </div>
     </header>
     <hr>
@@ -107,22 +105,21 @@
                 <div class="row">
                     <div class="col-1">
                         <div class="img1">
-                            <a href="#"><img src="./teasimages/tea-26_370x555.jpg" alt=""></a>
+                            <img src="./teasimages/loverna-journey-5kb0HwTHqTg-unsplash.jpg" class="first-small-img"
+                                alt="">
                         </div>
                         <div class="img2">
-                            <a href="#"><img src="./teasimages/tea-6_3ae69650-1349-4942-8799-4bb786e9019d_500x.webp"
-                                    alt=""></a>
-                        </div>
-                        <div class="img3">
-                            <a href="#"><img src="./teasimages/tea-11_6ce81486-f003-4aed-a34c-e629d9af0c2b_500x.jpg"
-                                    alt=""></a>
+                            <img src="./teasimages/brigitte-tohm-EAay7Aj4jbc-unsplash.jpg" class="second-small-img"
+                                alt="">
                         </div>
                     </div>
                     <div class="col-5">
                         <div class="zoompicture">
                             <span class='zoom' id='ex1'>
-                                <img src='./teasimages/tea-6_3ae69650-1349-4942-8799-4bb786e9019d_500x.webp' width='555'
-                                    height='320' alt='Daisy on the Ohoopee' />
+                                <img src='./teasimages/loverna-journey-5kb0HwTHqTg-unsplash.jpg' class="first-zoom-img"
+                                    width='555' height='320' alt='Daisy on the Ohoopee' />
+                                <img src='./teasimages/brigitte-tohm-EAay7Aj4jbc-unsplash.jpg' class="second-zoom-img"
+                                    width='555' height='320' alt='Daisy on the Ohoopee' />
                             </span>
                         </div>
                         <div class="picturetext">
@@ -174,10 +171,11 @@
                             <input class="quanity" type="number" id="quantity" name="quantity" min="1" max="1000">
                             <p id="subtotal">Subtotal $69.00</p>
                             <div class="productbtn">
-                                <button type="button" class="btn btn-outline-info btn1">Discover</button>
-                                <button type="button" class="btn btn-outline-info btn2">Discover</button>
+                                <button type="button" class="btn btn-outline-info btn1">ADD TO CARD</button>
+                                <button type="button" class="btn btn-outline-info btn2">ADD TO WISH</button>
                                 <div class="chekbutton">
-                                    <button type="button" class="btn btn-outline-info btn3">Discover</button>
+                                    <button type="button" class="btn btn-outline-info btn3 buy-btn" disabled>BUY IT
+                                        NOW</button>
                                     <div class="checking">
                                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
@@ -306,11 +304,13 @@
                                 East Tea Collection
                             </h5>
                             <div class="ps">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in</p> 
-                                <p>malesuada an darius ut augue. Cras sit amet lectus et justo feugiat euismod sed non erat. </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in
+                                </p>
+                                <p>malesuada an darius ut augue. Cras sit amet lectus et justo feugiat euismod sed non
+                                    erat. </p>
                                 <p> Nulla non felis id metus bibendum iaculis quis sit amet eros.</p>
                             </div>
-                                    
+
                             <div class="listp">
                                 <ul>
                                     <li>Lorem ipsum dolor sit amet consectetur adipiscing elito.</li>
@@ -322,7 +322,7 @@
                             <div id="btn4">
                                 <button type="button" class="btn btn-outline-secondary btn4">Primary</button>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -338,16 +338,20 @@
                                 Black Tea Collection
                             </h5>
                             <div class="btps">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in</p> 
-                                <p>malesuada an darius ut augue. Cras sit amet lectus et justo feugiat euismod sed non erat. </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in
+                                </p>
+                                <p>malesuada an darius ut augue. Cras sit amet lectus et justo feugiat euismod sed non
+                                    erat. </p>
                                 <p> Nulla non felis id metus bibendum iaculis quis sit amet eros.</p>
                             </div>
-                                    
+
                             <div class="btps2">
-                                <p>Cras ultricies nulla porttitor metus cursus malesuada. Sed convallis tempor ante ac</p> 
-                                <p>semperos. Duis an turpis de nisl ultricies rhoncus. Morbi aliquet sem non orci lacinia posuere</p>
+                                <p>Cras ultricies nulla porttitor metus cursus malesuada. Sed convallis tempor ante ac
+                                </p>
+                                <p>semperos. Duis an turpis de nisl ultricies rhoncus. Morbi aliquet sem non orci
+                                    lacinia posuere</p>
                                 <p>nam eget efficitur de milancelos.</p>
-                            </div>                              
+                            </div>
                         </div>
                     </div>
                     <div class="col-6">
@@ -355,7 +359,7 @@
                             <img src="./imagesgallery/banner2_1.webp" alt="">
                         </div>
                     </div>
-                     
+
                 </div>
             </div>
         </section>
@@ -370,7 +374,7 @@
                     </div>
                     <div class="col-6">
                         <div class="feedbacktext">
-                            
+
                         </div>
                     </div>
                 </div>
@@ -382,7 +386,7 @@
 
 
     <footer>
-        
+
         <section id="endoffooter">
 
             <div class="container-fluid">
@@ -524,6 +528,7 @@
             });
         });
     </script>
+    <script src="./js/detail.js"></script>
 
 
 

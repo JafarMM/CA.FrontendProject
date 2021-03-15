@@ -94,7 +94,7 @@ main{
         text-align: center;
       }
       a{
-         color: #17a8a3;
+         color: $blue_light;
          text-decoration: underline;
          background-color: transparent;
          transition: all 0.3s ease;
@@ -145,8 +145,8 @@ main{
            }
            .btn1:hover{
              color: white;
-             background-color: #17A8A3;
-             border-color: #17A8A3;
+             background-color: $blue_light;
+             border-color: $blue_light;
            }
         }
         .secondteas{
@@ -166,8 +166,8 @@ main{
           }
           .btn2:hover{
             color: white;
-            background-color: #17A8A3;
-            border-color: #17A8A3;
+            background-color: $blue_light;
+            border-color: $blue_light;
           }
         }
         .thirdteas{
@@ -187,8 +187,8 @@ main{
           }
           .btn3:hover{
             color: white;
-            background-color: #17A8A3;
-            border-color: #17A8A3;
+            background-color: $blue_light;
+            border-color: $blue_light;
           }
         }
     }
@@ -218,7 +218,7 @@ main{
             font-weight: 550;
           }
           a{
-            color: #17a8a3;
+            color: $blue_light;
          text-decoration: underline;
          background-color: transparent;
          transition: all 0.3s ease;
@@ -354,7 +354,7 @@ main{
           font-weight: bold;
           font-size: 50px;
           
-          color: #17a8a3;
+          color: $blue_light;
         }
         p{
           font-weight: 300;
@@ -368,7 +368,7 @@ main{
           width: 195px;
           height: 45px;
           color: white;
-          background-color: #17a8a3;
+          background-color: $blue_light;
         }
         .btn:hover{
           color: rgb(255, 255, 255);
@@ -433,7 +433,7 @@ main{
           }
           
           a{
-            color: #17a8a3;
+            color: $blue_light;
             text-decoration: underline;
             background-color: transparent;
             transition: all 0.3s ease;
@@ -471,8 +471,8 @@ main{
                   }
                   .btn11:hover{
                     color: white;
-                    background-color: #17A8A3;
-                    border-color: #17A8A3;
+                    background-color: $blue_light;
+                    border-color: $blue_light;
                   }
                 }
                 
@@ -499,8 +499,8 @@ main{
                 }
                 .btn22:hover{
                   color: white;
-                  background-color: #17A8A3;
-                  border-color: #17A8A3;
+                  background-color: $blue_light;
+                  border-color: $blue_light;
                 }
                }
              
@@ -527,8 +527,8 @@ main{
                 }
                 .btn33:hover{
                   color: white;
-                  background-color: #17A8A3;
-                  border-color: #17A8A3;
+                  background-color: $blue_light;
+                  border-color: $blue_light;
                 }
               }
              
@@ -586,7 +586,7 @@ main{
                     margin-left: 20px;
                     height: 50px;
                     border-radius: 0;
-                     background-color:#17a8a3 ;
+                     background-color:$blue_light ;
                      color: white;
                      width: 140px;
                 }
@@ -645,6 +645,9 @@ main{
         .zoom {
             display:inline-block;
             position: relative;
+            .second-zoom-img{
+              display: none;
+            }
         }
     
          
@@ -676,24 +679,28 @@ main{
         }
 
         .img1{
-          border: solid 1px black;     
+          
            width: 100px;
-           height: 98px;
-             
+           height: 98px; 
+             cursor: pointer;
            img{
-             width: 96px;
+             width: 100%;
             height: 96px;
            }
         }
         .img2{
-          border: solid 1px black;     
+          margin-top: 20px;
            width: 100px;
            height: 98px;
+           cursor: pointer;
            
           img{
-            width: 96px;
+            width: 100%;
             height: 96px;
           }
+        }
+        .active{
+          border: solid 1px black;     
         }
         .img3{
           border: solid 1px black;     
@@ -799,7 +806,7 @@ main{
                width: 240px;
                height: 50px;
                color: white;
-               background-color: #17a8a3;
+               background-color: $blue_light;
              }
              .btn1:hover{
                color: rgb(255, 255, 255);
@@ -820,19 +827,20 @@ main{
              }
              .btn2:hover{
                color: rgb(255, 255, 255);
-              border-color:#17a8a3;
-              background-color: #17a8a3;
+              border-color:$blue_light;
+              background-color: $blue_light;
           
            }
            .chekbutton{
              width: 510px;
              height: 100px;
              .btn3{
+               pointer-events: none;
                margin-top: 20px;
                  border-radius: 0;
                  width: 505px;
                  height: 50px;
-                 color: #17a8a3;
+                 color: $blue_light;
                  background-color: white;
              }
              .btn:hover{
@@ -922,7 +930,7 @@ main{
               }
               a{
                 font-size: $little_font;
-                color: #17a8a3;
+                color: $blue_light;
                 line-height: 24px;
                 text-decoration: underline;
               }
@@ -1022,8 +1030,8 @@ main{
              }
              .btn4:hover{
                color: rgb(255, 255, 255);
-                border-color:#17A8A3;
-                background-color: #17A8A3;
+                border-color:$blue_light;
+                background-color: $blue_light;
              }
             }
              
@@ -1084,7 +1092,7 @@ main{
             color: $little_color;
             a{
               text-decoration: underline;
-              color: #17A8A3;
+              color: $blue_light;
             }
           }
            
@@ -1222,14 +1230,14 @@ main{
           }
           .view{
             font-size: $little_font;
-            color: #17A8A3;
+            color: $blue_light;
             margin-left: 100px;
             text-decoration: underline;
             display: inline-block;
           }
           a{
             font-size: $little_font;
-            color: #17A8A3;
+            color: $blue_light;
             margin-left: 20px;
           }
           .seller1{
@@ -1417,7 +1425,7 @@ main{
 
         .themefaqs{
           a{
-            color: #17A8A3;
+            color: $blue_light;
             text-decoration: underline;
           }
           padding-left: 25px;
@@ -1538,7 +1546,7 @@ main{
             font-size: $little_font;
             color: $little_color;
             a{
-              color: #17A8A3;
+              color: $blue_light;
               text-decoration: underline;
             }
           }
@@ -1561,9 +1569,9 @@ main{
               padding-bottom: 30px;
               .btnform{
                 border-radius: 0%;
-                background-color: #17A8A3;
+                background-color: $blue_light;
                 color:white ;
-                border-color: #17A8A3;
+                border-color: $blue_light;
                 width: 200px;
               }
               .btnform:hover{
@@ -1638,7 +1646,7 @@ main{
           .submit{
             padding-top: 20px;
             #submitinput{
-              background-color: #17A8A3;
+              background-color: $blue_light;
               color: white;
               width: 500px;
               border-radius: 0%;
@@ -1656,6 +1664,28 @@ main{
             }
           }
            
+        }
+        .newcustomer{
+          padding-bottom: 150px;
+          background-color: #FAFAFA;
+          input{
+            border-radius: 0;
+            padding-top: 10px;
+          }
+          label{
+            font-size: 14px;
+             
+            padding-top: 8px;
+          }
+          .createaccount{
+            padding-top: 20px;
+            input{
+              width: 200px;
+              background-color: $blue_light;
+              color: white;
+              border-radius: 0%;
+            }
+          }
         }
       }
 
