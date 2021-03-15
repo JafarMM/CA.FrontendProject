@@ -1628,6 +1628,7 @@ main{
           padding-bottom: 60px;
         }
         .resetpassword{
+           
           h5{
              padding-top: 40px;
              padding-bottom: 20px;
@@ -1666,7 +1667,16 @@ main{
            
         }
         .newcustomer{
-          padding-bottom: 150px;
+          h5{
+            font-size: 24px;
+            font-weight: 550;
+          }
+          p{
+            font-size: 14px;
+            color: $little_color;
+          }
+          padding:50px 50px 150px 50px ;
+           
           background-color: #FAFAFA;
           input{
             border-radius: 0;
@@ -1674,16 +1684,19 @@ main{
           }
           label{
             font-size: 14px;
-             
             padding-top: 8px;
           }
           .createaccount{
-            padding-top: 20px;
+            padding-top: 40px;
             input{
               width: 200px;
               background-color: $blue_light;
               color: white;
               border-radius: 0%;
+            }
+            #createaccount:hover{
+              background-color: rgb(1, 110, 101);
+              transition: all 0.3s;
             }
           }
         }
