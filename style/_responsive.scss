@@ -19,12 +19,8 @@
         }
     }
 
-        .MostPopular{
-            .popularimages{
-                .popular3{
-                    overflow-x: scroll;
-                }
-            }
+        .popularimages{
+            overflow-x: scroll;
         }
 
          #partvideo{
@@ -62,14 +58,14 @@
                    .startoficon{
                     display: none;
                    }  
-                    
+                    padding-left: 130px;
              }
               
          }
 
   }
 
-  @media  screen and (max-width: 910px){
+  @media  screen and (max-width: 500px){
 
     .navbarm{
         .logo{
@@ -78,9 +74,110 @@
                     width: 150px;
                 }
                 display: block;
-                padding-left: 270px;
+                padding-left: 120px;
             }
         }
     }
 
+    .carousel-inner{
+         img{
+             width: 100%;
+             height: 600px;
+         }
+    }
+
+     #MostPopular{
+         .mainpopular{
+             a{
+                 display: none;
+             }
+         }
+         .popularimages{
+             overflow-x: scroll;
+              height: 500px;
+              img{
+                  height: 273px;
+                   
+              }
+              h3{
+                  width: 322px;
+                  height: 36px;
+              }
+         }
+        }
+        #newprdcs{
+             .mainnewproducts{
+                 a{
+                     display: none;
+                 }
+             }
+             .owl-theme{
+                 width: 22rem;
+             }
+        }
+        #partvideo{
+            .leftpart{
+                 
+                height: 212px;
+                h2{
+                     
+                    height: 28px;
+                    font-size: 24px;
+                }
+                p{
+                     
+                    height: 52px;
+                    font-size: 14px;
+                     
+                }
+                .butondiscover{
+                    padding-left: 65px;
+                    button{
+                         
+                        height: 40px;
+                        font-size: 14px;
+                    }
+                }
+                 
+            }
+                
+        }
+        #RecentPosts{
+            .mainrecent{
+                a{
+                    display: none;
+                }
+            }
+            .recentimages{
+                overflow-x: scroll;
+                 height: 500px;
+                 img{
+                     height: 273px;
+                      
+                 }
+                 h3{
+                     width: 322px;
+                     height: 36px;
+                 }
+            }
+        }
+        #endoffooter{
+           ul{
+               .headli{
+                   display: block;
+                   height: 26px;
+                   padding-left: 12px;
+               }
+               li{
+                   display: none;
+               }
+           } 
+        }
+        #lastpart{
+             
+            padding-top: 250px;
+            .bankcards{
+                padding-left:-250px ;
+            }
+        }
   }
